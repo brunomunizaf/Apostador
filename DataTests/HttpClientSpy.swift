@@ -4,12 +4,12 @@ import Foundation
 final class HttpClientSpy: HttpPostClient {
   var data: Data?
   var urls = [URL]()
-  var completion: ((Result<Data, HttpError>) -> Void)?
+  var completion: ((Result<Data?, HttpError>) -> Void)?
 
   func post(
     to url: URL,
     with data: Data?,
-    completion: @escaping (Result<Data, HttpError>) -> Void
+    completion: @escaping (Result<Data?, HttpError>) -> Void
   ) {
     self.data = data
     self.urls.append(url)

@@ -21,11 +21,11 @@ public final class RemoteAddAccount: AddAccount {
       to: url,
       with: addAccountModel.toData()
     ) { [weak self] in
-      guard let self else { return }
+      guard self != nil else { return }
 
       switch $0 {
       case .success(let data):
-        guard let model: AccountModel = data.toModel() else {
+        guard let model: AccountModel = data?.toModel() else {
           completion(.failure(.decodeFailure))
           return
         }

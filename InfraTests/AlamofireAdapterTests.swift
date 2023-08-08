@@ -1,25 +1,7 @@
 import Alamofire
 import Data
+import Infra
 import XCTest
-
-final class AlamofireAdapter {
-  private let session: Session
-
-  init(session: Session = .default) {
-    self.session = session
-  }
-
-  func post(to url: URL, with data: Data?) {
-    session
-      .request(
-        url,
-        method: .post,
-        parameters: data?.toJSON(),
-        encoding: JSONEncoding.default
-      )
-      .resume()
-  }
-}
 
 final class AlamofireAdapterTests: XCTestCase {
   func test_postShouldMakeRequestWithValidURLAndMethod() {
@@ -36,21 +18,168 @@ final class AlamofireAdapterTests: XCTestCase {
       XCTAssertNil(request.httpBodyStream)
     }
   }
-}
 
-final class URLProtocolStub: URLProtocol {
-  static var emit: ((URLRequest) -> Void)?
-
-  static func observeRequest(completion: @escaping (URLRequest) -> Void) {
-    URLProtocolStub.emit = completion
+  func test_postShouldCompleteWithErrorWhenRequestCompletesWithError() {
+    expectResult(
+      .failure(.noConnectivityError),
+      when: (data: nil, response: nil, error: makeError())
+    )
   }
 
-  override func stopLoading() {}
-  override class func canInit(with request: URLRequest) -> Bool { true }
-  override class func canonicalRequest(for request: URLRequest) -> URLRequest { request }
+  func test_postShouldCompleteWithErrorOnAllInvalidCases() {
+    expectResult(
+      .failure(.noConnectivityError),
+      when: (
+        data: makeValidData(),
+        response: makeHTTPResponse(),
+        error: makeError()
+      )
+    )
+    expectResult(
+      .failure(.noConnectivityError),
+      when: (
+        data: makeValidData(),
+        response: nil,
+        error: makeError()
+      )
+    )
+    expectResult(
+      .failure(.noConnectivityError),
+      when: (
+        data: makeValidData(),
+        response: nil,
+        error: nil
+      )
+    )
+    expectResult(
+      .failure(.noConnectivityError),
+      when: (
+        data: nil,
+        response: makeHTTPResponse(),
+        error: makeError()
+      )
+    )
+    expectResult(
+      .failure(.noConnectivityError),
+      when: (
+        data: nil,
+        response: makeHTTPResponse(),
+        error: nil
+      )
+    )
+    expectResult(
+      .failure(.noConnectivityError),
+      when: (
+        data: nil,
+        response: nil,
+        error: nil
+      )
+    )
+  }
 
-  override func startLoading() {
-    URLProtocolStub.emit?(request)
+  func test_postShouldCompleteWithDataWhenRequestCompletesWith200() {
+    expectResult(
+      .success(makeValidData()),
+      when: (
+        data: makeValidData(),
+        response: makeHTTPResponse(),
+        error: nil
+      )
+    )
+  }
+
+  func test_postShouldCompleteWithErrorRequestCompletesNon200() {
+    expectResult(
+      .failure(.badRequest),
+      when: (
+        data: makeValidData(),
+        response: makeHTTPResponse(statusCode: 400),
+        error: nil
+      )
+    )
+    expectResult(
+      .failure(.serverError),
+      when: (
+        data: makeValidData(),
+        response: makeHTTPResponse(statusCode: 500),
+        error: nil
+      )
+    )
+    expectResult(
+      .failure(.badRequest),
+      when: (
+        data: makeValidData(),
+        response: makeHTTPResponse(statusCode: 450),
+        error: nil
+      )
+    )
+    expectResult(
+      .failure(.badRequest),
+      when: (
+        data: makeValidData(),
+        response: makeHTTPResponse(statusCode: 499),
+        error: nil
+      )
+    )
+    expectResult(
+      .failure(.serverError),
+      when: (
+        data: makeValidData(),
+        response: makeHTTPResponse(statusCode: 550),
+        error: nil
+      )
+    )
+    expectResult(
+      .failure(.serverError),
+      when: (
+        data: makeValidData(),
+        response: makeHTTPResponse(statusCode: 599),
+        error: nil
+      )
+    )
+    expectResult(
+      .failure(.unauthorized),
+      when: (
+        data: makeValidData(),
+        response: makeHTTPResponse(statusCode: 401),
+        error: nil
+      )
+    )
+    expectResult(
+      .failure(.forbidden),
+      when: (
+        data: makeValidData(),
+        response: makeHTTPResponse(statusCode: 403),
+        error: nil
+      )
+    )
+  }
+
+  func test_postShouldCompleteWithNoDataWhenRequestCompletesWith204() {
+    expectResult(
+      .success(nil),
+      when: (
+        data: nil,
+        response: makeHTTPResponse(statusCode: 204),
+        error: nil
+      )
+    )
+    expectResult(
+      .success(nil),
+      when: (
+        data: makeEmptyData(),
+        response: makeHTTPResponse(statusCode: 204),
+        error: nil
+      )
+    )
+    expectResult(
+      .success(nil),
+      when: (
+        data: makeValidData(),
+        response: makeHTTPResponse(statusCode: 204),
+        error: nil
+      )
+    )
   }
 }
 
@@ -71,9 +200,40 @@ extension AlamofireAdapterTests {
   ) {
     let sut = makeSUT()
     let exp = expectation(description: "waiting")
-    sut.post(to: url, with: data)
-    URLProtocolStub.observeRequest { request in
-      action(request)
+    sut.post(to: url, with: data) { _ in
+      exp.fulfill()
+    }
+    var request: URLRequest?
+    URLProtocolStub.observeRequest {
+      request = $0
+    }
+    wait(for: [exp], timeout: 1)
+    action(request!)
+  }
+
+  func expectResult(
+    _ expectedResult: Result<Data?, HttpError>,
+    when stub: (data: Data?, response: HTTPURLResponse?, error: Error?)
+  ) {
+    let sut = makeSUT()
+    let exp = expectation(description: "waiting")
+    URLProtocolStub.simulate(
+      data: stub.data,
+      response: stub.response,
+      error: stub.error
+    )
+    sut.post(
+      to: makeURL(),
+      with: makeValidData()
+    ) { receivedResult in
+      switch (expectedResult, receivedResult) {
+      case (.failure(let expectedError), .failure(let receivedError)):
+        XCTAssertEqual(expectedError, receivedError)
+      case (.success(let expectedData), .success(let receivedData)):
+        XCTAssertEqual(expectedData, receivedData)
+      default:
+        XCTFail("Expected \(expectedResult) but got \(receivedResult) instead")
+      }
       exp.fulfill()
     }
     wait(for: [exp], timeout: 1)
