@@ -1,24 +1,5 @@
 import Domain
 
-public struct SignUpViewModel {
-  public var name: String?
-  public var email: String?
-  public var password: String?
-  public var passwordConfirmation: String?
-
-  public init(
-    name: String?,
-    email: String?,
-    password: String?,
-    passwordConfirmation: String?
-  ) {
-    self.name = name
-    self.email = email
-    self.password = password
-    self.passwordConfirmation = passwordConfirmation
-  }
-}
-
 public final class SignUpPresenter {
   private let alertView: AlertView
   private let addAccount: AddAccount
@@ -31,6 +12,7 @@ public final class SignUpPresenter {
     loadingView: LoadingView,
     addAccount: AddAccount
   ) {
+
     self.alertView = alertView
     self.addAccount = addAccount
     self.loadingView = loadingView
@@ -46,22 +28,20 @@ public final class SignUpPresenter {
         )
       )
     } else {
-      let addAccountModel = AddAccountModel(
-        name: viewModel.name!,
-        email: viewModel.email!,
-        password: viewModel.password!,
-        passwordConfirmation: viewModel.passwordConfirmation!
-      )
       loadingView.display(
         viewModel: .init(
           isLoading: true
         )
       )
-      addAccount.add(addAccountModel: addAccountModel) { [weak self] in
+      addAccount.add(
+        addAccountModel: SignUpMapper.toAddAccountModel(
+          viewModel: viewModel
+        )
+      ) { [weak self] in
         guard let self else { return }
 
         switch $0 {
-        case .failure(_):
+        case .failure:
           self.alertView.showMessage(
             viewModel: AlertViewModel(
               title: "Erro",
@@ -69,8 +49,14 @@ public final class SignUpPresenter {
             )
           )
         case .success:
-          break
+          self.alertView.showMessage(
+            viewModel: AlertViewModel(
+              title: "Sucesso",
+              message: "Conta criada com sucesso."
+            )
+          )
         }
+        self.loadingView.display(viewModel: .init(isLoading: false))
       }
     }
   }

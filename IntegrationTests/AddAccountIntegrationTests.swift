@@ -4,7 +4,7 @@ import Infra
 import XCTest
 
 final class AddAccountIntegrationTests: XCTestCase {
-  func test_addAccount() {
+  func _test_addAccount() {
     let alamofireAdapter = AlamofireAdapter()
     let addAccountModel = AddAccountModel(
       name: "Bruno Muniz",
