@@ -27,6 +27,22 @@
         "identifier" : "32AA33692A81209F00F3455D",
         "name" : "InfraTests"
       }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:CleanApp.xcodeproj",
+        "identifier" : "327712902A81EFA6000A0BF1",
+        "name" : "IntegrationTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:CleanApp.xcodeproj",
+        "identifier" : "327712AA2A81F4BA000A0BF1",
+        "name" : "PresentationTests"
+      }
     }
   ],
   "version" : 1

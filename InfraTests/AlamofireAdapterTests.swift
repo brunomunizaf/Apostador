@@ -153,6 +153,14 @@ final class AlamofireAdapterTests: XCTestCase {
         error: nil
       )
     )
+    expectResult(
+      .failure(.noConnectivityError),
+      when: (
+        data: makeValidData(),
+        response: makeHTTPResponse(statusCode: 300),
+        error: nil
+      )
+    )
   }
 
   func test_postShouldCompleteWithNoDataWhenRequestCompletesWith204() {
