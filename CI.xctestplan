@@ -51,6 +51,14 @@
         "identifier" : "3213E3AD2A8421FC004FC7DC",
         "name" : "UITests"
       }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:CleanApp.xcodeproj",
+        "identifier" : "321F47D82A84825C00112F11",
+        "name" : "ValidationTests"
+      }
     }
   ],
   "version" : 1

@@ -24,18 +24,54 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="SignUp"/>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nome" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AA2-DX-lf0">
+                                <rect key="frame" x="10" y="89" width="373" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Senha" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HeM-bE-iLN">
+                                <rect key="frame" x="10" y="207" width="373" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cYc-ya-2pc">
+                                <rect key="frame" x="10" y="148" width="373" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirmação de Senha" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nUc-Iz-g5L">
+                                <rect key="frame" x="10" y="266" width="373" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
                         <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="HeM-bE-iLN" secondAttribute="trailing" constant="10" id="37R-F7-Ybr"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="AA2-DX-lf0" secondAttribute="trailing" constant="10" id="3Md-lg-y10"/>
                             <constraint firstItem="CwG-Nn-8mk" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="4Yc-he-rY0"/>
                             <constraint firstItem="Wfv-Xq-zmi" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="73h-Aj-fEM"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="CwG-Nn-8mk" secondAttribute="bottom" constant="86" id="FVA-5R-6hR"/>
+                            <constraint firstItem="cYc-ya-2pc" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="GoX-gW-zDF"/>
+                            <constraint firstItem="AA2-DX-lf0" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="30" id="Jrn-kp-19F"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="cYc-ya-2pc" secondAttribute="trailing" constant="10" id="Lzi-Gh-g3U"/>
+                            <constraint firstItem="AA2-DX-lf0" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="WC4-oU-yDH"/>
+                            <constraint firstItem="HeM-bE-iLN" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="a52-4e-NB8"/>
+                            <constraint firstItem="nUc-Iz-g5L" firstAttribute="top" secondItem="HeM-bE-iLN" secondAttribute="bottom" constant="25" id="dDp-KR-D8f"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="nUc-Iz-g5L" secondAttribute="trailing" constant="10" id="mje-A2-XiO"/>
                             <constraint firstItem="Wfv-Xq-zmi" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="omA-hh-oHs"/>
+                            <constraint firstItem="cYc-ya-2pc" firstAttribute="top" secondItem="AA2-DX-lf0" secondAttribute="bottom" constant="25" id="rLe-wT-SZI"/>
+                            <constraint firstItem="nUc-Iz-g5L" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="t3f-8I-R3F"/>
+                            <constraint firstItem="HeM-bE-iLN" firstAttribute="top" secondItem="cYc-ya-2pc" secondAttribute="bottom" constant="25" id="uFa-Fj-hkN"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="confirmPasswordTextField" destination="nUc-Iz-g5L" id="re4-mK-j6u"/>
+                        <outlet property="emailTextField" destination="cYc-ya-2pc" id="bIQ-SN-aVv"/>
                         <outlet property="loadingIndicator" destination="Wfv-Xq-zmi" id="WKj-PY-9VJ"/>
+                        <outlet property="nameTextField" destination="AA2-DX-lf0" id="viB-bQ-KV5"/>
+                        <outlet property="passwordTextField" destination="HeM-bE-iLN" id="sYY-0C-N22"/>
                         <outlet property="signUpButton" destination="CwG-Nn-8mk" id="ODm-jO-00r"/>
                     </connections>
                 </viewController>
@@ -45,8 +81,8 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

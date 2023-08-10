@@ -16,12 +16,22 @@ final class SignUpViewControllerTests: XCTestCase {
   }
 
   func test_saveButtonCallsSignUpOnTap() {
-    var callsCount = 0
-    let sut = makeSUT { _ in
-      callsCount += 1
+    var signUpViewModel: SignUpViewModel?
+    let sut = makeSUT {
+      signUpViewModel = $0
     }
     sut.signUpButton?.simulateTap()
-    XCTAssertEqual(callsCount, 1)
+    let name = sut.nameTextField?.text
+    let email = sut.emailTextField?.text
+    let password = sut.passwordTextField?.text
+    let confirmPassword = sut.confirmPasswordTextField?.text
+
+    XCTAssertEqual(signUpViewModel, .init(
+      name: name,
+      email: email,
+      password: password,
+      passwordConfirmation: confirmPassword
+    ))
   }
 }
 
@@ -29,33 +39,9 @@ extension SignUpViewControllerTests {
   func makeSUT(
     signUpSpy: ((SignUpViewModel) -> Void)? = nil
   ) -> SignUpViewController {
-    let sb = UIStoryboard(
-      name: "SignUp",
-      bundle: Bundle(for: SignUpViewController.self)
-    )
-    let sut = sb.instantiateViewController(
-      withIdentifier: "SignUpViewController"
-    ) as! SignUpViewController
-
+    let sut = SignUpViewController.instantiate()
     sut.signUp = signUpSpy
     sut.loadViewIfNeeded()
     return sut
-  }
-}
-
-extension UIControl {
-  func simulate(event: UIControl.Event) {
-    allTargets.forEach { target in
-      actions(
-        forTarget: target,
-        forControlEvent: event
-      )?.forEach{ action in
-        (target as NSObject).perform(Selector(action))
-      }
-    }
-  }
-
-  func simulateTap() {
-    simulate(event: .touchUpInside)
   }
 }
