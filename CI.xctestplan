@@ -43,6 +43,14 @@
         "identifier" : "327712AA2A81F4BA000A0BF1",
         "name" : "PresentationTests"
       }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:CleanApp.xcodeproj",
+        "identifier" : "3213E3AD2A8421FC004FC7DC",
+        "name" : "UITests"
+      }
     }
   ],
   "version" : 1
