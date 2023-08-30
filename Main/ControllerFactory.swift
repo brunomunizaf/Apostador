@@ -20,4 +20,16 @@ final class ControllerFactory {
     controller.signUp = presenter.signUp
     return controller
   }
+
+  static func makeSportsList(getSports: GetSports) -> SportsListViewController {
+    let controller = SportsListViewController.instantiate()
+
+    let presenter = SportsListPresenter(
+      alertView: controller,
+      getSports: getSports,
+      loadingView: controller
+    )
+    controller.fetch = presenter.fetch
+    return controller
+  }
 }

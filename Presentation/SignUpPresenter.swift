@@ -12,7 +12,6 @@ public final class SignUpPresenter {
     loadingView: LoadingView,
     addAccount: AddAccount
   ) {
-
     self.alertView = alertView
     self.addAccount = addAccount
     self.loadingView = loadingView

@@ -11,8 +11,8 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
   ) {
     guard let windowScene = (scene as? UIWindowScene) else { return }
     window = UIWindow(windowScene: windowScene)
-    window?.rootViewController = SignUpComposer.composeControllerWith(
-      addAccount: UseCaseFactory.makeRemoteAddAccount()
+    window?.rootViewController = SportsListComposer.composeControllerWith(
+      getSports: UseCaseFactory.makeRemoteGetSports(apiKey: "3764bb90a173e8b6d9daf1eb29900d01")
     )
     window?.makeKeyAndVisible()
   }
