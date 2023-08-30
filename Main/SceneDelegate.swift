@@ -1,6 +1,6 @@
 import UIKit
 
-class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
   var window: UIWindow?
 
@@ -11,7 +11,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
   ) {
     guard let windowScene = (scene as? UIWindowScene) else { return }
     window = UIWindow(windowScene: windowScene)
-    window?.rootViewController = SignupFactory.makeController()
+    window?.rootViewController = SignUpComposer.composeControllerWith(
+      addAccount: UseCaseFactory.makeRemoteAddAccount()
+    )
     window?.makeKeyAndVisible()
   }
 }
