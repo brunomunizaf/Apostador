@@ -59,6 +59,14 @@
         "identifier" : "321F47D82A84825C00112F11",
         "name" : "ValidationTests"
       }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:CleanApp.xcodeproj",
+        "identifier" : "320383392AAACEC600C51045",
+        "name" : "MainTests"
+      }
     }
   ],
   "version" : 1

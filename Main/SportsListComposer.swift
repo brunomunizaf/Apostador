@@ -1,9 +1,17 @@
 import Domain
 import Foundation
+import Presentation
 import UI
 
 public final class SportsListComposer {
-  static func composeControllerWith(getSports: GetSports) -> SportsListViewController {
-    ControllerFactory.makeSportsList(getSports: getSports)
+  public static func composeControllerWith(getSports: GetSports) -> SportsListViewController {
+    let controller = SportsListViewController.instantiate()
+    let presenter = SportsListPresenter(
+      alertView: controller,
+      getSports: getSports,
+      loadingView: controller
+    )
+    controller.fetch = presenter.fetch
+    return controller
   }
 }

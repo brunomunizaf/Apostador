@@ -4,15 +4,26 @@ import Foundation
 import Infra
 
 final class UseCaseFactory {
+  private static let httpClient = AlamofireAdapter()
+  private static let apiBaseURL = Environment.variable(.apiBaseURL)
+
+  private static func makeURL(path: String) -> URL {
+    URL(string: "\(apiBaseURL)\(path)")!
+  }
+
   static func makeRemoteAddAccount() -> AddAccount {
-    let alamofireAdapter = AlamofireAdapter()
-    let url = URL(string: "https://clean-node-api.herokuapp.com/api/signup")!
-    return RemoteAddAccount(url: url, httpClient: alamofireAdapter)
+    MainQueueDispatchDecorator(
+      RemoteAddAccount(
+        url: URL(string: "https://clean-node-api.herokuapp.com/api/signup")!,
+        httpClient: httpClient
+      )
+    )
   }
 
   static func makeRemoteGetSports(apiKey: String) -> GetSports {
-    let alamofireAdapter = AlamofireAdapter()
-    let url = URL(string: "https://api.the-odds-api.com/v4/sports?apiKey=\(apiKey)")!
-    return RemoteGetSports(url: url, httpClient: alamofireAdapter)
+    RemoteGetSports(
+      url: makeURL(path: "/sports?apiKey=\(apiKey)"),
+      httpClient: httpClient
+    )
   }
 }
