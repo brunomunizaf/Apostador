@@ -77,6 +77,26 @@ final class SportsListPresenterTests: XCTestCase {
     getSportsSpy.completeWithError(.unexpected)
     wait(for: [exp2], timeout: 1)
   }
+
+  func test_fetchShouldCallDisplaySportsIfSucceeds() {
+    let getSportsSpy = GetSportsSpy()
+    let displaySportsSpy = DisplaySportsSpy()
+    let sut = makeSUT(
+      getSports: getSportsSpy,
+      displaySports: displaySportsSpy
+    )
+    let mockedSports = makeSportViewModels()
+    let exp = expectation(description: "waiting")
+    getSportsSpy.completion = {
+      XCTAssertEqual(
+        try! $0.get(),
+        mockedSports
+      )
+      exp.fulfill()
+    }
+    getSportsSpy.completeWithSports(mockedSports)
+    wait(for: [exp], timeout: 1)
+  }
 }
 
 extension SportsListPresenterTests {

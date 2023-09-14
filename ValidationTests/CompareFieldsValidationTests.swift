@@ -36,7 +36,7 @@ final class CompareFieldsValidationTests: XCTestCase {
   func test_validateShouldReturnNilIfComparationSucceeds() {
     let sut = makeSUT(
       fieldName: "password",
-      fieldLabel: "Senha",
+      fieldLabel: "Confirmar Senha",
       fieldNameToCompare: "passwordConfirmation"
     )
     let errorMessage = sut.validate(
@@ -45,7 +45,7 @@ final class CompareFieldsValidationTests: XCTestCase {
         "passwordConfirmation": "123"
       ]
     )
-    XCTAssertEqual(errorMessage, "O campo Senha é inválido")
+    XCTAssertNil(errorMessage)
   }
 }
 
