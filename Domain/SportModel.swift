@@ -1,5 +1,3 @@
-import Foundation
-
 public struct SportModel: Model {
   public var key: String
   public var group: String

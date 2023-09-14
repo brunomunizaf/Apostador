@@ -9,7 +9,8 @@ public final class SportsListComposer {
     let presenter = SportsListPresenter(
       alertView: controller,
       getSports: getSports,
-      loadingView: controller
+      loadingView: controller,
+      displaySports: controller
     )
     controller.fetch = presenter.fetch
     return controller

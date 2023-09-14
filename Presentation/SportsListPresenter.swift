@@ -4,15 +4,18 @@ public final class SportsListPresenter {
   private let alertView: AlertView
   private let getSports: GetSports
   private let loadingView: LoadingView
+  private let displaySports: DisplaySports
 
   public init(
     alertView: AlertView,
     getSports: GetSports,
-    loadingView: LoadingView
+    loadingView: LoadingView,
+    displaySports: DisplaySports
   ) {
     self.alertView = alertView
     self.getSports = getSports
     self.loadingView = loadingView
+    self.displaySports = displaySports
   }
 
   public func fetch() {
@@ -32,8 +35,8 @@ public final class SportsListPresenter {
             message: "Algo inesperado aconteceu, tente novamente em instantes."
           )
         )
-      case .success:
-        break
+      case .success(let sports):
+        self.displaySports.display(sports)
       }
       self.loadingView.display(viewModel: .init(isLoading: false))
     }

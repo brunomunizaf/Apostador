@@ -107,6 +107,8 @@
 		32DE17F12AABBF34006953DE /* SignUpComposerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DE17F02AABBF34006953DE /* SignUpComposerTests.swift */; };
 		32DE17F22AABEE5D006953DE /* TestFactories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3213E3A02A842050004FC7DC /* TestFactories.swift */; };
 		32DE17F42AAC49D4006953DE /* MainQueueDispatchDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DE17F32AAC49D4006953DE /* MainQueueDispatchDecorator.swift */; };
+		32F40D0B2AB39DD100352197 /* DisplaySportsSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F40D0A2AB39DD100352197 /* DisplaySportsSpy.swift */; };
+		32F40D0D2AB39E2500352197 /* DisplaySports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F40D0C2AB39E2500352197 /* DisplaySports.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -407,6 +409,8 @@
 		32DE17EE2AABBAEE006953DE /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		32DE17F02AABBF34006953DE /* SignUpComposerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpComposerTests.swift; sourceTree = "<group>"; };
 		32DE17F32AAC49D4006953DE /* MainQueueDispatchDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQueueDispatchDecorator.swift; sourceTree = "<group>"; };
+		32F40D0A2AB39DD100352197 /* DisplaySportsSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySportsSpy.swift; sourceTree = "<group>"; };
+		32F40D0C2AB39E2500352197 /* DisplaySports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySports.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -624,14 +628,10 @@
 		327712AF2A81F4BA000A0BF1 /* PresentationTests */ = {
 			isa = PBXGroup;
 			children = (
-				327712B02A81F4BA000A0BF1 /* SignUpPresenterTests.swift */,
-				323DF9072AAED7E700CA7BE8 /* ValidationSpy.swift */,
-				3213E3982A841F1B004FC7DC /* AlertViewSpy.swift */,
-				3213E39C2A841F77004FC7DC /* AddAccountSpy.swift */,
-				3213E39E2A841FC4004FC7DC /* LoadingViewSpy.swift */,
+				32F40D092AB39D4B00352197 /* Spies */,
 				3213E3A02A842050004FC7DC /* TestFactories.swift */,
+				327712B02A81F4BA000A0BF1 /* SignUpPresenterTests.swift */,
 				3264CDCB2A9FECC100921A71 /* SportsListPresenterTests.swift */,
-				3264CDCD2A9FEDE800921A71 /* GetSportsSpy.swift */,
 			);
 			path = PresentationTests;
 			sourceTree = "<group>";
@@ -689,6 +689,7 @@
 				32AA33582A80999000F3455D /* DomainError.swift */,
 				3264CDB72A9FE0E700921A71 /* SportModel.swift */,
 				3264CDB92A9FE12F00921A71 /* GetSports.swift */,
+				32F40D0C2AB39E2500352197 /* DisplaySports.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -744,6 +745,19 @@
 				3277128A2A81EC86000A0BF1 /* URLProtocolStub.swift */,
 			);
 			path = InfraTests;
+			sourceTree = "<group>";
+		};
+		32F40D092AB39D4B00352197 /* Spies */ = {
+			isa = PBXGroup;
+			children = (
+				3264CDCD2A9FEDE800921A71 /* GetSportsSpy.swift */,
+				323DF9072AAED7E700CA7BE8 /* ValidationSpy.swift */,
+				3213E3982A841F1B004FC7DC /* AlertViewSpy.swift */,
+				3213E39C2A841F77004FC7DC /* AddAccountSpy.swift */,
+				3213E39E2A841FC4004FC7DC /* LoadingViewSpy.swift */,
+				32F40D0A2AB39DD100352197 /* DisplaySportsSpy.swift */,
+			);
+			path = Spies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1365,6 +1379,7 @@
 			files = (
 				3213E39D2A841F77004FC7DC /* AddAccountSpy.swift in Sources */,
 				3213E39F2A841FC4004FC7DC /* LoadingViewSpy.swift in Sources */,
+				32F40D0B2AB39DD100352197 /* DisplaySportsSpy.swift in Sources */,
 				3264CDCC2A9FECC100921A71 /* SportsListPresenterTests.swift in Sources */,
 				3264CDCE2A9FEDE800921A71 /* GetSportsSpy.swift in Sources */,
 				324C1B302A8306AD00175941 /* AccountModelFactory.swift in Sources */,
@@ -1379,6 +1394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32AA33532A8095E400F3455D /* Model.swift in Sources */,
+				32F40D0D2AB39E2500352197 /* DisplaySports.swift in Sources */,
 				3264CDBA2A9FE12F00921A71 /* GetSports.swift in Sources */,
 				32AA33232A8089C100F3455D /* AddAccount.swift in Sources */,
 				3264CDB82A9FE0E700921A71 /* SportModel.swift in Sources */,

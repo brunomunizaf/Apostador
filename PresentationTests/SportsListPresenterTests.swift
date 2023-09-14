@@ -12,8 +12,11 @@ final class SportsListPresenterTests: XCTestCase {
     )
     let exp = expectation(description: "waiting")
     alertViewSpy.observe {
-      XCTAssertEqual($0, makeErrorAlertViewModel(
-        message: "Algo inesperado aconteceu, tente novamente em instantes.")
+      XCTAssertEqual(
+        $0, AlertViewModel(
+          title: "Erro",
+          message: "Algo inesperado aconteceu, tente novamente em instantes."
+        )
       )
       exp.fulfill()
     }
@@ -32,8 +35,11 @@ final class SportsListPresenterTests: XCTestCase {
     )
     let exp = expectation(description: "waiting")
     alertViewSpy.observe {
-      XCTAssertEqual($0, makeErrorAlertViewModel(
-        message: "Algo inesperado aconteceu, tente novamente em instantes.")
+      XCTAssertEqual(
+        $0, AlertViewModel(
+          title: "Erro",
+          message: "Algo inesperado aconteceu, tente novamente em instantes."
+        )
       )
       exp.fulfill()
     }
@@ -77,12 +83,14 @@ extension SportsListPresenterTests {
   func makeSUT(
     alertView: AlertViewSpy = .init(),
     getSports: GetSportsSpy = .init(),
-    loadingView: LoadingViewSpy = .init()
+    loadingView: LoadingViewSpy = .init(),
+    displaySports: DisplaySportsSpy = .init()
   ) -> SportsListPresenter {
     let sut = SportsListPresenter(
       alertView: alertView,
       getSports: getSports,
-      loadingView: loadingView
+      loadingView: loadingView,
+      displaySports: displaySports
     )
     addTeardownBlock { [weak sut] in
       XCTAssertNil(sut)

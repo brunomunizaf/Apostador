@@ -24,7 +24,10 @@ final class SignUpPresenterTests: XCTestCase {
     let exp = expectation(description: "waiting")
     alertViewSpy.observe {
       XCTAssertEqual(
-        $0, AlertViewModel(title: "Erro", message: "Algo inesperado aconteceu, tente novamente em instantes")
+        $0, AlertViewModel(
+          title: "Erro",
+          message: "Algo inesperado aconteceu, tente novamente em instantes"
+        )
       )
       exp.fulfill()
     }
