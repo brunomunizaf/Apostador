@@ -78,7 +78,7 @@ final class SportsListPresenterTests: XCTestCase {
     wait(for: [exp2], timeout: 1)
   }
 
-  func test_fetchShouldCallDisplaySportsIfSucceeds() {
+  func test_fetchShouldCallDisplaySportsWithCorrectModelsIfSucceeds() {
     let getSportsSpy = GetSportsSpy()
     let displaySportsSpy = DisplaySportsSpy()
     let sut = makeSUT(
@@ -87,13 +87,11 @@ final class SportsListPresenterTests: XCTestCase {
     )
     let mockedSports = makeSportViewModels()
     let exp = expectation(description: "waiting")
-    getSportsSpy.completion = {
-      XCTAssertEqual(
-        try! $0.get(),
-        mockedSports
-      )
+    displaySportsSpy.observe {
+      XCTAssertEqual($0, mockedSports)
       exp.fulfill()
     }
+    sut.fetch()
     getSportsSpy.completeWithSports(mockedSports)
     wait(for: [exp], timeout: 1)
   }
