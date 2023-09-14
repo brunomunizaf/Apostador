@@ -1,4 +1,4 @@
-import Validation
+import Infra
 import XCTest
 
 final class EmailValidatorAdapterTests: XCTestCase {

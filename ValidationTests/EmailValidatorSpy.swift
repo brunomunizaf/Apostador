@@ -1,4 +1,4 @@
-import Presentation
+import Validation
 
 final class EmailValidatorSpy: EmailValidator {
   var isValid = true

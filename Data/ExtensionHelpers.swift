@@ -8,6 +8,9 @@ public extension Data {
   }
 
   func toJSON() -> [String: Any]? {
-    try? JSONSerialization.jsonObject(with: self, options: .fragmentsAllowed) as? [String: Any]
+    try? JSONSerialization.jsonObject(
+      with: self,
+      options: .fragmentsAllowed
+    ) as? [String: Any]
   }
 }

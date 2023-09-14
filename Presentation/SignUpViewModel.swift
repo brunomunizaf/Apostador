@@ -1,3 +1,5 @@
+import Domain
+
 public struct SignUpViewModel: Equatable {
   public var name: String?
   public var email: String?
@@ -16,3 +18,5 @@ public struct SignUpViewModel: Equatable {
     self.passwordConfirmation = passwordConfirmation
   }
 }
+
+extension SignUpViewModel: Model {}

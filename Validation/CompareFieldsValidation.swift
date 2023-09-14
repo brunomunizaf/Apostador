@@ -1,0 +1,25 @@
+import Presentation
+
+public final class CompareFieldsValidation: Validation {
+  private let fieldName: String
+  private let fieldLabel: String
+  private let fieldNameToCompare: String
+
+  public init(
+    fieldName: String,
+    fieldLabel: String,
+    fieldNameToCompare: String
+  ) {
+    self.fieldName = fieldName
+    self.fieldLabel = fieldLabel
+    self.fieldNameToCompare = fieldNameToCompare
+  }
+
+  public func validate(data: [String : Any]?) -> String? {
+    guard let fieldName = data?[fieldName] as? String,
+          let fieldNameToCompare = data?[fieldNameToCompare] as? String else {
+      return "O campo \(fieldLabel) é inválido"
+    }
+    return nil
+  }
+}
