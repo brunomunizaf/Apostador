@@ -15,7 +15,7 @@ public final class SportsListPresenter {
     self.loadingView = loadingView
   }
 
-  public func fetch(_ completion: @escaping ([Sport]) -> Void) {
+  public func fetch(_ completion: @escaping ([SportsListViewModel]) -> Void) {
     loadingView.display(
       viewModel: .init(
         isLoading: true
@@ -33,7 +33,16 @@ public final class SportsListPresenter {
           )
         )
       case .success(let sports):
-        completion(sports)
+        let viewModels = Dictionary(
+          grouping: sports,
+          by: \.group
+        ).map { key, value in
+          SportsListViewModel(
+            title: key,
+            sports: value.sorted(by: { $0.title < $1.title })
+          )
+        }.sorted(by: { $0.title < $1.title })
+        completion(viewModels)
       }
       self.loadingView.display(viewModel: .init(isLoading: false))
     }

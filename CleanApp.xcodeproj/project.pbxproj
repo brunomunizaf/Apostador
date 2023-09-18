@@ -58,6 +58,7 @@
 		323DF9082AAED7E700CA7BE8 /* ValidationSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323DF9072AAED7E700CA7BE8 /* ValidationSpy.swift */; };
 		323DF9092AAED8D200CA7BE8 /* EmailValidatorAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321F47EC2A8484D700112F11 /* EmailValidatorAdapter.swift */; };
 		323DF90A2AAED8E600CA7BE8 /* EmailValidatorAdapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321F47DE2A84825C00112F11 /* EmailValidatorAdapterTests.swift */; };
+		32428A1A2AB8176E00FD293C /* SportsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32428A192AB8176E00FD293C /* SportsListViewModel.swift */; };
 		3243845A2AB17CAC00FC15C6 /* RequiredFieldValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324384592AB17CAC00FC15C6 /* RequiredFieldValidationTests.swift */; };
 		3243845C2AB17F5E00FC15C6 /* RequiredFieldValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3243845B2AB17F5E00FC15C6 /* RequiredFieldValidation.swift */; };
 		3243845D2AB1800900FC15C6 /* TestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AA337D2A8126BD00F3455D /* TestExtensions.swift */; };
@@ -378,6 +379,7 @@
 		321F48022A8485FB00112F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		323DF9032AAED75500CA7BE8 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
 		323DF9072AAED7E700CA7BE8 /* ValidationSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationSpy.swift; sourceTree = "<group>"; };
+		32428A192AB8176E00FD293C /* SportsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsListViewModel.swift; sourceTree = "<group>"; };
 		324384592AB17CAC00FC15C6 /* RequiredFieldValidationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequiredFieldValidationTests.swift; sourceTree = "<group>"; };
 		3243845B2AB17F5E00FC15C6 /* RequiredFieldValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequiredFieldValidation.swift; sourceTree = "<group>"; };
 		3243845E2AB180E400FC15C6 /* CompareFieldsValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareFieldsValidation.swift; sourceTree = "<group>"; };
@@ -742,6 +744,7 @@
 				320B93D62AB7F14300ABA4C4 /* GetSports.swift */,
 				320B93DA2AB7F15400ABA4C4 /* GetScores.swift */,
 				32AA33222A8089C100F3455D /* AddAccount.swift */,
+				32428A192AB8176E00FD293C /* SportsListViewModel.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -1506,6 +1509,7 @@
 				320B93DB2AB7F15400ABA4C4 /* GetScores.swift in Sources */,
 				32AA33232A8089C100F3455D /* AddAccount.swift in Sources */,
 				32DD78012AB7C2E4009FA339 /* Outcome.swift in Sources */,
+				32428A1A2AB8176E00FD293C /* SportsListViewModel.swift in Sources */,
 				3264CDB82A9FE0E700921A71 /* Sport.swift in Sources */,
 				32AA33592A80999000F3455D /* DomainError.swift in Sources */,
 				32AA33252A808AEF00F3455D /* Account.swift in Sources */,

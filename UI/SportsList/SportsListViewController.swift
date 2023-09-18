@@ -6,9 +6,9 @@ public final class SportsListViewController: UIViewController, Storyboarded {
   @IBOutlet weak var sportsTableView: UITableView!
   @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
 
-  public var dataSet = [Sport]()
   public var push: ((Sport) -> Void)?
-  public var fetch: ((@escaping ([Sport]) -> Void) -> Void)?
+  public var dataSet = [SportsListViewModel]()
+  public var fetch: ((@escaping ([SportsListViewModel]) -> Void) -> Void)?
 
   public override func viewDidLoad() {
     super.viewDidLoad()
@@ -16,8 +16,8 @@ public final class SportsListViewController: UIViewController, Storyboarded {
     sportsTableView.dataSource = self
     fetch? { [weak self] sports in
       guard let self else { return }
-      self.dataSet = sports.sorted(by: { $0.title < $1.title })
-      self.sportsTableView.reloadData()
+      dataSet = sports
+      sportsTableView.reloadData()
     }
   }
 }
@@ -50,11 +50,22 @@ extension SportsListViewController: AlertView {
 }
 
 extension SportsListViewController: UITableViewDataSource {
+  public func numberOfSections(in tableView: UITableView) -> Int {
+    dataSet.count
+  }
+
+  public func tableView(
+    _ tableView: UITableView,
+    titleForHeaderInSection section: Int
+  ) -> String? {
+    dataSet[section].title
+  }
+
   public func tableView(
     _ tableView: UITableView,
     numberOfRowsInSection section: Int
   ) -> Int {
-    dataSet.count
+    dataSet[section].sports.count
   }
 
   public func tableView(
@@ -65,7 +76,8 @@ extension SportsListViewController: UITableViewDataSource {
       withIdentifier: "SportsListCell",
       for: indexPath
     )
-    cell.textLabel?.text = dataSet[indexPath.row].title
+    let title = dataSet[indexPath.section].sports[indexPath.row].title
+    cell.textLabel?.text = title
     return cell
   }
 }
@@ -75,6 +87,6 @@ extension SportsListViewController: UITableViewDelegate {
     _ tableView: UITableView,
     didSelectRowAt indexPath: IndexPath
   ) {
-    push?(dataSet[indexPath.row])
+    push?(dataSet[indexPath.section].sports[indexPath.row])
   }
 }
