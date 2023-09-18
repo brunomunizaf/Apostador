@@ -1,8 +1,8 @@
 import Domain
 import Foundation
 
-func makeAccountModel() -> AccountModel {
-  AccountModel(
+func makeAccountModel() -> Account {
+  Account(
     id: "any_id",
     name: "any_name",
     email: "email@email.com",

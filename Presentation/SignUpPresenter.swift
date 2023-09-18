@@ -33,7 +33,7 @@ public final class SignUpPresenter {
         )
       )
       addAccount.add(
-        addAccountModel: SignUpMapper.toAddAccountModel(
+        accountModel: SignUpMapper.toAddAccountModel(
           viewModel: viewModel
         )
       ) { [weak self] in

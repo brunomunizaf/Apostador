@@ -6,14 +6,14 @@ final class RemoteAddAccountTests: XCTestCase {
   func test_addShouldCallHttpClientWithCorrectUrl() {
     let url = makeURL()
     let (sut, client) = makeSUT(url: url)
-    sut.add(addAccountModel: makeAddAccountModel()) { _ in }
+    sut.add(accountModel: makeAddAccountModel()) { _ in }
     XCTAssertEqual(client.urls, [url])
   }
 
   func test_addShouldCallHttpClientWithCorrectData() {
     let (sut, client) = makeSUT()
     let addAccountModel = makeAddAccountModel()
-    sut.add(addAccountModel: addAccountModel) { _ in }
+    sut.add(accountModel: addAccountModel) { _ in }
     XCTAssertEqual(client.data, addAccountModel.toData())
   }
 
@@ -47,9 +47,9 @@ final class RemoteAddAccountTests: XCTestCase {
 
   func test_addShouldNotCompleteIfSUTHasBeenDallocated() {
     let client = HttpClientSpy()
-    var result: Result<AccountModel, DomainError>?
+    var result: Result<Account, DomainError>?
     var sut: RemoteAddAccount? = RemoteAddAccount(url: makeURL(), httpClient: client)
-    sut?.add(addAccountModel: makeAddAccountModel()) { result = $0 }
+    sut?.add(accountModel: makeAddAccountModel()) { result = $0 }
     sut = nil
     client.completeWithError(.noConnectivityError)
     XCTAssertNil(result)
@@ -72,11 +72,11 @@ extension RemoteAddAccountTests {
 
   func expect(
     _ sut: RemoteAddAccount,
-    completeWith expectedResult: Result<AccountModel, DomainError>,
+    completeWith expectedResult: Result<Account, DomainError>,
     when action: () -> Void
   ) {
     let exp = expectation(description: "waiting")
-    sut.add(addAccountModel: makeAddAccountModel()) { receivedResult in
+    sut.add(accountModel: makeAddAccountModel()) { receivedResult in
       XCTAssertEqual(receivedResult, expectedResult)
       exp.fulfill()
     }

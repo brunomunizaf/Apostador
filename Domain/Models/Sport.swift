@@ -1,4 +1,4 @@
-public struct SportModel: Model {
+public struct Sport: Model {
   public var key: String
   public var group: String
   public var title: String

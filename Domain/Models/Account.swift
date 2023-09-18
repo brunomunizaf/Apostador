@@ -1,4 +1,4 @@
-public struct AccountModel: Model {
+public struct Account: Model {
   public var id: String
   public var name: String
   public var email: String

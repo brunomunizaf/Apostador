@@ -14,18 +14,18 @@ public final class RemoteAddAccount: AddAccount {
   }
 
   public func add(
-    addAccountModel: AddAccountModel,
-    completion: @escaping (Result<AccountModel, DomainError>) -> Void
+    accountModel: AddAccountModel,
+    completion: @escaping (Result<Account, DomainError>) -> Void
   ) {
     httpClient.post(
       to: url,
-      with: addAccountModel.toData()
+      with: accountModel.toData()
     ) { [weak self] in
       guard self != nil else { return }
 
       switch $0 {
       case .success(let data):
-        guard let model: AccountModel = data?.toModel() else {
+        guard let model: Account = data?.toModel() else {
           completion(.failure(.decodeFailure))
           return
         }

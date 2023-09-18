@@ -22,11 +22,11 @@ func makeSportViewModels(
   active: Bool = true,
   description: String = "Austrian Soccer",
   hasOutrights: Bool = true
-) -> [SportModel] {
-  var models = [SportModel]()
+) -> [Sport] {
+  var models = [Sport]()
   for i in 1..<10 {
     models.append(
-      SportModel(
+      Sport(
         key: "\(i)-\(key)",
         group: "\(i)-\(group)",
         title: "\(i)-\(title)",

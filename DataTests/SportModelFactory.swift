@@ -1,8 +1,8 @@
 import Domain
 import Foundation
 
-func makeSportModel() -> SportModel {
-  SportModel(
+func makeSportModel() -> Sport {
+  Sport(
     key: "any_key",
     group: "any_group",
     title: "any_title",

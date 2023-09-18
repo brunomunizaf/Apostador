@@ -1,3 +1,3 @@
 public protocol GetSports {
-  func get(completion: @escaping (Result<[SportModel], DomainError>) -> Void)
+  func get(completion: @escaping (Result<[Sport], DomainError>) -> Void)
 }

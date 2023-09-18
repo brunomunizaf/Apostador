@@ -2,21 +2,21 @@ import Domain
 
 final class AddAccountSpy: AddAccount {
   var viewModel: AddAccountModel?
-  var completion: ((Result<AccountModel, DomainError>) -> Void)?
+  var completion: ((Result<Account, DomainError>) -> Void)?
 
   func add(
-    addAccountModel: AddAccountModel,
-    completion: @escaping (Result<AccountModel, DomainError>) -> Void
+    accountModel: AddAccountModel,
+    completion: @escaping (Result<Account, DomainError>) -> Void
   ) {
     self.completion = completion
-    self.viewModel = addAccountModel
+    self.viewModel = accountModel
   }
 
   func completeWithError(_ error: DomainError) {
     completion?(.failure(error))
   }
 
-  func completeWithAccount(_ model: AccountModel) {
+  func completeWithAccount(_ model: Account) {
     completion?(.success(model))
   }
 }

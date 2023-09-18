@@ -21,7 +21,7 @@ final class SportsListPresenterTests: XCTestCase {
       exp.fulfill()
     }
 
-    sut.fetch()
+    sut.fetch { _ in }
     getSportsSpy.completeWithError(.unexpected)
     wait(for: [exp], timeout: 1)
   }
@@ -44,7 +44,7 @@ final class SportsListPresenterTests: XCTestCase {
       exp.fulfill()
     }
 
-    sut.fetch()
+    sut.fetch { _ in }
     getSportsSpy.completeWithError(.decodeFailure)
     wait(for: [exp], timeout: 1)
   }
@@ -64,7 +64,7 @@ final class SportsListPresenterTests: XCTestCase {
       )
       exp.fulfill()
     }
-    sut.fetch()
+    sut.fetch { _ in }
     wait(for: [exp], timeout: 1)
     let exp2 = expectation(description: "waiting")
     loadingViewSpy.observe { viewModel in
@@ -78,20 +78,17 @@ final class SportsListPresenterTests: XCTestCase {
     wait(for: [exp2], timeout: 1)
   }
 
-  func test_fetchShouldCallDisplaySportsWithCorrectModelsIfSucceeds() {
+  func test_fetchShouldCompleteWithCorrectModelsIfSucceeds() {
     let getSportsSpy = GetSportsSpy()
-    let displaySportsSpy = DisplaySportsSpy()
     let sut = makeSUT(
-      getSports: getSportsSpy,
-      displaySports: displaySportsSpy
+      getSports: getSportsSpy
     )
     let mockedSports = makeSportViewModels()
     let exp = expectation(description: "waiting")
-    displaySportsSpy.observe {
+    sut.fetch {
       XCTAssertEqual($0, mockedSports)
       exp.fulfill()
     }
-    sut.fetch()
     getSportsSpy.completeWithSports(mockedSports)
     wait(for: [exp], timeout: 1)
   }
@@ -101,14 +98,12 @@ extension SportsListPresenterTests {
   func makeSUT(
     alertView: AlertViewSpy = .init(),
     getSports: GetSportsSpy = .init(),
-    loadingView: LoadingViewSpy = .init(),
-    displaySports: DisplaySportsSpy = .init()
+    loadingView: LoadingViewSpy = .init()
   ) -> SportsListPresenter {
     let sut = SportsListPresenter(
       alertView: alertView,
       getSports: getSports,
-      loadingView: loadingView,
-      displaySports: displaySports
+      loadingView: loadingView
     )
     addTeardownBlock { [weak sut] in
       XCTAssertNil(sut)

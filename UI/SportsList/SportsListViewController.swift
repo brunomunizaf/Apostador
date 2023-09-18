@@ -6,20 +6,19 @@ public final class SportsListViewController: UIViewController, Storyboarded {
   @IBOutlet weak var sportsTableView: UITableView!
   @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
 
-  public var fetch: (() -> Void)?
-  public var dataSet = [String: [SportModel]]()
+  public var dataSet = [Sport]()
+  public var push: ((Sport) -> Void)?
+  public var fetch: ((@escaping ([Sport]) -> Void) -> Void)?
 
   public override func viewDidLoad() {
     super.viewDidLoad()
+    sportsTableView.delegate = self
     sportsTableView.dataSource = self
-    fetch?()
-  }
-}
-
-extension SportsListViewController: DisplaySports {
-  public func display(_ models: [SportModel]) {
-    dataSet = Dictionary(grouping: models, by: \.group)
-    sportsTableView.reloadData()
+    fetch? { [weak self] sports in
+      guard let self else { return }
+      self.dataSet = sports.sorted(by: { $0.title < $1.title })
+      self.sportsTableView.reloadData()
+    }
   }
 }
 
@@ -51,21 +50,31 @@ extension SportsListViewController: AlertView {
 }
 
 extension SportsListViewController: UITableViewDataSource {
-  public func numberOfSections(in tableView: UITableView) -> Int {
-    dataSet.keys.count
+  public func tableView(
+    _ tableView: UITableView,
+    numberOfRowsInSection section: Int
+  ) -> Int {
+    dataSet.count
   }
 
-  public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    guard let value = dataSet[Array(dataSet.keys)[section]] else { return 0 }
-    return value.count
-  }
-
-  public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCell(withIdentifier: "SportsListCell", for: indexPath)
-    let key = Array(dataSet.keys)[indexPath.section]
-    if let value = dataSet[key] {
-      cell.textLabel?.text = value[indexPath.row].title
-    }
+  public func tableView(
+    _ tableView: UITableView,
+    cellForRowAt indexPath: IndexPath
+  ) -> UITableViewCell {
+    let cell = tableView.dequeueReusableCell(
+      withIdentifier: "SportsListCell",
+      for: indexPath
+    )
+    cell.textLabel?.text = dataSet[indexPath.row].title
     return cell
+  }
+}
+
+extension SportsListViewController: UITableViewDelegate {
+  public func tableView(
+    _ tableView: UITableView,
+    didSelectRowAt indexPath: IndexPath
+  ) {
+    push?(dataSet[indexPath.row])
   }
 }

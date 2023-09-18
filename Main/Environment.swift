@@ -2,6 +2,7 @@ import Foundation
 
 public final class Environment {
   public enum EnvironmentVariables: String {
+    case apiKey = "API_KEY"
     case apiBaseURL = "API_BASE_URL"
   }
 

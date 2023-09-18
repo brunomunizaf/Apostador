@@ -41,7 +41,7 @@ final class RemoteGetSportsTests: XCTestCase {
 
   func test_getShouldNotCompleteIfSUTHasBeenDallocated() {
     let client = HttpClientSpy()
-    var result: Result<[SportModel], DomainError>?
+    var result: Result<[Sport], DomainError>?
     var sut: RemoteGetSports? = RemoteGetSports(url: makeURL(), httpClient: client)
     sut?.get { result = $0 }
     sut = nil
@@ -66,7 +66,7 @@ extension RemoteGetSportsTests {
 
   func expect(
     _ sut: RemoteGetSports,
-    completeWith expectedResult: Result<[SportModel], DomainError>,
+    completeWith expectedResult: Result<[Sport], DomainError>,
     when action: () -> Void
   ) {
     let exp = expectation(description: "waiting")

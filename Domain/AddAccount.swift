@@ -1,7 +1,7 @@
 public protocol AddAccount {
   func add(
-    addAccountModel: AddAccountModel,
-    completion: @escaping (Result<AccountModel, DomainError>) -> Void
+    accountModel: AddAccountModel,
+    completion: @escaping (Result<Account, DomainError>) -> Void
   )
 }
 

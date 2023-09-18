@@ -1,27 +1,27 @@
 import Domain
 
-public final class SportsListPresenter {
+public final class OddsListPresenter {
+  private let getOdds: GetOdds
   private let alertView: AlertView
-  private let getSports: GetSports
   private let loadingView: LoadingView
 
   public init(
+    getOdds: GetOdds,
     alertView: AlertView,
-    getSports: GetSports,
     loadingView: LoadingView
   ) {
+    self.getOdds = getOdds
     self.alertView = alertView
-    self.getSports = getSports
     self.loadingView = loadingView
   }
 
-  public func fetch(_ completion: @escaping ([Sport]) -> Void) {
+  public func fetch(_ completion: @escaping ([Odd]) -> Void) {
     loadingView.display(
       viewModel: .init(
         isLoading: true
       )
     )
-    getSports.get { [weak self] in
+    getOdds.get { [weak self] in
       guard let self else { return }
 
       switch $0 {
@@ -32,8 +32,8 @@ public final class SportsListPresenter {
             message: "Algo inesperado aconteceu, tente novamente em instantes."
           )
         )
-      case .success(let sports):
-        completion(sports)
+      case .success(let odds):
+        completion(odds)
       }
       self.loadingView.display(viewModel: .init(isLoading: false))
     }

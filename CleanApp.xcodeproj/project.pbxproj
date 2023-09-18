@@ -11,6 +11,14 @@
 		320383432AAACF5800C51045 /* AddAccountSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3213E39C2A841F77004FC7DC /* AddAccountSpy.swift */; };
 		320383442AAACF6200C51045 /* TestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AA337D2A8126BD00F3455D /* TestExtensions.swift */; };
 		320383462AAAD18400C51045 /* WeakVarProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320383452AAAD18400C51045 /* WeakVarProxy.swift */; };
+		320B93D72AB7F14300ABA4C4 /* GetSports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320B93D62AB7F14300ABA4C4 /* GetSports.swift */; };
+		320B93D92AB7F14C00ABA4C4 /* GetOdds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320B93D82AB7F14C00ABA4C4 /* GetOdds.swift */; };
+		320B93DB2AB7F15400ABA4C4 /* GetScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320B93DA2AB7F15400ABA4C4 /* GetScores.swift */; };
+		320B93DD2AB7F1D300ABA4C4 /* OddsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320B93DC2AB7F1D300ABA4C4 /* OddsListPresenter.swift */; };
+		320B93E02AB7F27800ABA4C4 /* OddsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320B93DF2AB7F27800ABA4C4 /* OddsListViewController.swift */; };
+		320B93E22AB7F28200ABA4C4 /* OddsList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 320B93E12AB7F28200ABA4C4 /* OddsList.storyboard */; };
+		320B93E42AB7F55F00ABA4C4 /* OddsListComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320B93E32AB7F55F00ABA4C4 /* OddsListComposer.swift */; };
+		320B93E72AB805F200ABA4C4 /* RemoteGetOdds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320B93E62AB805F200ABA4C4 /* RemoteGetOdds.swift */; };
 		3213E3952A841D9E004FC7DC /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3213E3942A841D9E004FC7DC /* SignUpViewModel.swift */; };
 		3213E3972A841DE8004FC7DC /* SignUpMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3213E3962A841DE8004FC7DC /* SignUpMapper.swift */; };
 		3213E3992A841F1B004FC7DC /* AlertViewSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3213E3982A841F1B004FC7DC /* AlertViewSpy.swift */; };
@@ -59,8 +67,7 @@
 		324C1B382A83131800175941 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324C1B372A83131800175941 /* LoadingView.swift */; };
 		32594BA72A8F1D4E00ADD9A6 /* UseCaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32594BA62A8F1D4E00ADD9A6 /* UseCaseFactory.swift */; };
 		32594BA92A8F1DC200ADD9A6 /* SignUpComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32594BA82A8F1DC200ADD9A6 /* SignUpComposer.swift */; };
-		3264CDB82A9FE0E700921A71 /* SportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3264CDB72A9FE0E700921A71 /* SportModel.swift */; };
-		3264CDBA2A9FE12F00921A71 /* GetSports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3264CDB92A9FE12F00921A71 /* GetSports.swift */; };
+		3264CDB82A9FE0E700921A71 /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3264CDB72A9FE0E700921A71 /* Sport.swift */; };
 		3264CDBC2A9FE16400921A71 /* HttpGetClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3264CDBB2A9FE16400921A71 /* HttpGetClient.swift */; };
 		3264CDBE2A9FE1F400921A71 /* RemoteGetSports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3264CDBD2A9FE1F400921A71 /* RemoteGetSports.swift */; };
 		3264CDC02A9FE4FC00921A71 /* SportsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3264CDBF2A9FE4FC00921A71 /* SportsListPresenter.swift */; };
@@ -81,7 +88,7 @@
 		327712BE2A81FBDA000A0BF1 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327712BD2A81FBDA000A0BF1 /* AlertView.swift */; };
 		32A8F6122A847A89003CC506 /* TestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8F6112A847A89003CC506 /* TestExtensions.swift */; };
 		32AA33232A8089C100F3455D /* AddAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AA33222A8089C100F3455D /* AddAccount.swift */; };
-		32AA33252A808AEF00F3455D /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AA33242A808AEF00F3455D /* AccountModel.swift */; };
+		32AA33252A808AEF00F3455D /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AA33242A808AEF00F3455D /* Account.swift */; };
 		32AA333F2A808B4700F3455D /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32AA33372A808B4700F3455D /* Data.framework */; };
 		32AA33442A808B4700F3455D /* RemoteAddAccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AA33432A808B4700F3455D /* RemoteAddAccountTests.swift */; };
 		32AA334D2A808B5B00F3455D /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32AA331B2A80896100F3455D /* Domain.framework */; };
@@ -103,12 +110,16 @@
 		32AA33852A8129E300F3455D /* TestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AA337D2A8126BD00F3455D /* TestExtensions.swift */; };
 		32AA33862A8129EA00F3455D /* TestFactories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AA337F2A81273900F3455D /* TestFactories.swift */; };
 		32AA33892A812A5300F3455D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 32AA33882A812A5300F3455D /* Alamofire */; };
+		32DD77F82AB7C1CC009FA339 /* Odd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DD77F72AB7C1CC009FA339 /* Odd.swift */; };
+		32DD77FD2AB7C2BA009FA339 /* Bookmaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DD77FC2AB7C2BA009FA339 /* Bookmaker.swift */; };
+		32DD77FF2AB7C2D3009FA339 /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DD77FE2AB7C2D3009FA339 /* Market.swift */; };
+		32DD78012AB7C2E4009FA339 /* Outcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DD78002AB7C2E4009FA339 /* Outcome.swift */; };
+		32DD78032AB7C310009FA339 /* HistoricalOdds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DD78022AB7C310009FA339 /* HistoricalOdds.swift */; };
+		32DD78052AB7C33F009FA339 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DD78042AB7C33F009FA339 /* Score.swift */; };
 		32DE17EF2AABBAEE006953DE /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DE17EE2AABBAEE006953DE /* Environment.swift */; };
 		32DE17F12AABBF34006953DE /* SignUpComposerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DE17F02AABBF34006953DE /* SignUpComposerTests.swift */; };
 		32DE17F22AABEE5D006953DE /* TestFactories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3213E3A02A842050004FC7DC /* TestFactories.swift */; };
 		32DE17F42AAC49D4006953DE /* MainQueueDispatchDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DE17F32AAC49D4006953DE /* MainQueueDispatchDecorator.swift */; };
-		32F40D0B2AB39DD100352197 /* DisplaySportsSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F40D0A2AB39DD100352197 /* DisplaySportsSpy.swift */; };
-		32F40D0D2AB39E2500352197 /* DisplaySports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F40D0C2AB39E2500352197 /* DisplaySports.swift */; };
 		32F40D102AB3A2C100352197 /* EmailValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F40D0F2AB3A2C100352197 /* EmailValidationTests.swift */; };
 		32F40D122AB3A80A00352197 /* ValidationCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F40D112AB3A80A00352197 /* ValidationCompositeTests.swift */; };
 		32F40D142AB3ABA700352197 /* ValidationComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F40D132AB3ABA700352197 /* ValidationComposite.swift */; };
@@ -333,6 +344,14 @@
 		3203833A2AAACEC600C51045 /* MainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3203833C2AAACEC600C51045 /* SignUpIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpIntegrationTests.swift; sourceTree = "<group>"; };
 		320383452AAAD18400C51045 /* WeakVarProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakVarProxy.swift; sourceTree = "<group>"; };
+		320B93D62AB7F14300ABA4C4 /* GetSports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSports.swift; sourceTree = "<group>"; };
+		320B93D82AB7F14C00ABA4C4 /* GetOdds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetOdds.swift; sourceTree = "<group>"; };
+		320B93DA2AB7F15400ABA4C4 /* GetScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetScores.swift; sourceTree = "<group>"; };
+		320B93DC2AB7F1D300ABA4C4 /* OddsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddsListPresenter.swift; sourceTree = "<group>"; };
+		320B93DF2AB7F27800ABA4C4 /* OddsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddsListViewController.swift; sourceTree = "<group>"; };
+		320B93E12AB7F28200ABA4C4 /* OddsList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OddsList.storyboard; sourceTree = "<group>"; };
+		320B93E32AB7F55F00ABA4C4 /* OddsListComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddsListComposer.swift; sourceTree = "<group>"; };
+		320B93E62AB805F200ABA4C4 /* RemoteGetOdds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteGetOdds.swift; sourceTree = "<group>"; };
 		3213E3942A841D9E004FC7DC /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		3213E3962A841DE8004FC7DC /* SignUpMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMapper.swift; sourceTree = "<group>"; };
 		3213E3982A841F1B004FC7DC /* AlertViewSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewSpy.swift; sourceTree = "<group>"; };
@@ -366,8 +385,7 @@
 		324C1B372A83131800175941 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		32594BA62A8F1D4E00ADD9A6 /* UseCaseFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseFactory.swift; sourceTree = "<group>"; };
 		32594BA82A8F1DC200ADD9A6 /* SignUpComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpComposer.swift; sourceTree = "<group>"; };
-		3264CDB72A9FE0E700921A71 /* SportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportModel.swift; sourceTree = "<group>"; };
-		3264CDB92A9FE12F00921A71 /* GetSports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSports.swift; sourceTree = "<group>"; };
+		3264CDB72A9FE0E700921A71 /* Sport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport.swift; sourceTree = "<group>"; };
 		3264CDBB2A9FE16400921A71 /* HttpGetClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpGetClient.swift; sourceTree = "<group>"; };
 		3264CDBD2A9FE1F400921A71 /* RemoteGetSports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteGetSports.swift; sourceTree = "<group>"; };
 		3264CDBF2A9FE4FC00921A71 /* SportsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsListPresenter.swift; sourceTree = "<group>"; };
@@ -392,7 +410,7 @@
 		32A8F6112A847A89003CC506 /* TestExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExtensions.swift; sourceTree = "<group>"; };
 		32AA331B2A80896100F3455D /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32AA33222A8089C100F3455D /* AddAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccount.swift; sourceTree = "<group>"; };
-		32AA33242A808AEF00F3455D /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
+		32AA33242A808AEF00F3455D /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		32AA33372A808B4700F3455D /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32AA333E2A808B4700F3455D /* DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32AA33432A808B4700F3455D /* RemoteAddAccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAddAccountTests.swift; sourceTree = "<group>"; };
@@ -409,13 +427,17 @@
 		32AA337F2A81273900F3455D /* TestFactories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFactories.swift; sourceTree = "<group>"; };
 		32AA33812A8127B300F3455D /* HttpClientSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClientSpy.swift; sourceTree = "<group>"; };
 		32AA33832A81282000F3455D /* AccountModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModelFactory.swift; sourceTree = "<group>"; };
+		32DD77F72AB7C1CC009FA339 /* Odd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Odd.swift; sourceTree = "<group>"; };
+		32DD77FC2AB7C2BA009FA339 /* Bookmaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmaker.swift; sourceTree = "<group>"; };
+		32DD77FE2AB7C2D3009FA339 /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
+		32DD78002AB7C2E4009FA339 /* Outcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outcome.swift; sourceTree = "<group>"; };
+		32DD78022AB7C310009FA339 /* HistoricalOdds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalOdds.swift; sourceTree = "<group>"; };
+		32DD78042AB7C33F009FA339 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 		32DE17EC2AABBA13006953DE /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		32DE17ED2AABBA6A006953DE /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		32DE17EE2AABBAEE006953DE /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		32DE17F02AABBF34006953DE /* SignUpComposerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpComposerTests.swift; sourceTree = "<group>"; };
 		32DE17F32AAC49D4006953DE /* MainQueueDispatchDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQueueDispatchDecorator.swift; sourceTree = "<group>"; };
-		32F40D0A2AB39DD100352197 /* DisplaySportsSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySportsSpy.swift; sourceTree = "<group>"; };
-		32F40D0C2AB39E2500352197 /* DisplaySports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySports.swift; sourceTree = "<group>"; };
 		32F40D0F2AB3A2C100352197 /* EmailValidationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidationTests.swift; sourceTree = "<group>"; };
 		32F40D112AB3A80A00352197 /* ValidationCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationCompositeTests.swift; sourceTree = "<group>"; };
 		32F40D132AB3ABA700352197 /* ValidationComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationComposite.swift; sourceTree = "<group>"; };
@@ -550,15 +572,33 @@
 			path = MainTests;
 			sourceTree = "<group>";
 		};
+		320B93DE2AB7F26800ABA4C4 /* OddsList */ = {
+			isa = PBXGroup;
+			children = (
+				320B93DF2AB7F27800ABA4C4 /* OddsListViewController.swift */,
+				320B93E12AB7F28200ABA4C4 /* OddsList.storyboard */,
+			);
+			path = OddsList;
+			sourceTree = "<group>";
+		};
+		320B93E52AB7F59800ABA4C4 /* Composers */ = {
+			isa = PBXGroup;
+			children = (
+				32594BA82A8F1DC200ADD9A6 /* SignUpComposer.swift */,
+				320B93E32AB7F55F00ABA4C4 /* OddsListComposer.swift */,
+				3264CDC32A9FE55F00921A71 /* SportsListComposer.swift */,
+			);
+			path = Composers;
+			sourceTree = "<group>";
+		};
 		3213E3A82A8421FC004FC7DC /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				3213E3C12A8424FA004FC7DC /* SignUpViewController.swift */,
-				3213E3C32A8425FA004FC7DC /* SignUp.storyboard */,
+				320B93DE2AB7F26800ABA4C4 /* OddsList */,
+				32DD77F22AB7B901009FA339 /* SportsList */,
+				32DD77F12AB7B8FC009FA339 /* SignUp */,
 				321F47C92A847F5100112F11 /* Extensions.swift */,
 				321F47CB2A847FE700112F11 /* Storyboarded.swift */,
-				3264CDC12A9FE51C00921A71 /* SportsListViewController.swift */,
-				3264CDC52A9FE6B100921A71 /* SportsList.storyboard */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -598,18 +638,17 @@
 		321F47F32A8485F800112F11 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				321F47F42A8485F800112F11 /* AppDelegate.swift */,
-				321F47F62A8485F800112F11 /* SceneDelegate.swift */,
-				321F47FD2A8485FB00112F11 /* Assets.xcassets */,
-				321F47FF2A8485FB00112F11 /* LaunchScreen.storyboard */,
+				320B93E52AB7F59800ABA4C4 /* Composers */,
 				321F48022A8485FB00112F11 /* Info.plist */,
-				32594BA62A8F1D4E00ADD9A6 /* UseCaseFactory.swift */,
-				32594BA82A8F1DC200ADD9A6 /* SignUpComposer.swift */,
-				3264CDC32A9FE55F00921A71 /* SportsListComposer.swift */,
-				320383452AAAD18400C51045 /* WeakVarProxy.swift */,
+				321F47FD2A8485FB00112F11 /* Assets.xcassets */,
 				32DE17EC2AABBA13006953DE /* Debug.xcconfig */,
 				32DE17ED2AABBA6A006953DE /* Release.xcconfig */,
 				32DE17EE2AABBAEE006953DE /* Environment.swift */,
+				321F47F42A8485F800112F11 /* AppDelegate.swift */,
+				321F47FF2A8485FB00112F11 /* LaunchScreen.storyboard */,
+				321F47F62A8485F800112F11 /* SceneDelegate.swift */,
+				320383452AAAD18400C51045 /* WeakVarProxy.swift */,
+				32594BA62A8F1D4E00ADD9A6 /* UseCaseFactory.swift */,
 				32DE17F32AAC49D4006953DE /* MainQueueDispatchDecorator.swift */,
 			);
 			path = Main;
@@ -633,6 +672,7 @@
 				3213E3962A841DE8004FC7DC /* SignUpMapper.swift */,
 				3264CDBF2A9FE4FC00921A71 /* SportsListPresenter.swift */,
 				323DF9032AAED75500CA7BE8 /* Validation.swift */,
+				320B93DC2AB7F1D300ABA4C4 /* OddsListPresenter.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -695,13 +735,13 @@
 		32AA331C2A80896100F3455D /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				32AA33222A8089C100F3455D /* AddAccount.swift */,
-				32AA33242A808AEF00F3455D /* AccountModel.swift */,
+				32DD780A2AB7E7E6009FA339 /* Models */,
 				32AA33522A8095E400F3455D /* Model.swift */,
 				32AA33582A80999000F3455D /* DomainError.swift */,
-				3264CDB72A9FE0E700921A71 /* SportModel.swift */,
-				3264CDB92A9FE12F00921A71 /* GetSports.swift */,
-				32F40D0C2AB39E2500352197 /* DisplaySports.swift */,
+				320B93D82AB7F14C00ABA4C4 /* GetOdds.swift */,
+				320B93D62AB7F14300ABA4C4 /* GetSports.swift */,
+				320B93DA2AB7F15400ABA4C4 /* GetScores.swift */,
+				32AA33222A8089C100F3455D /* AddAccount.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -715,6 +755,7 @@
 				32AA335C2A80A21500F3455D /* ExtensionHelpers.swift */,
 				3264CDBB2A9FE16400921A71 /* HttpGetClient.swift */,
 				3264CDBD2A9FE1F400921A71 /* RemoteGetSports.swift */,
+				320B93E62AB805F200ABA4C4 /* RemoteGetOdds.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -759,6 +800,39 @@
 			path = InfraTests;
 			sourceTree = "<group>";
 		};
+		32DD77F12AB7B8FC009FA339 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				3213E3C12A8424FA004FC7DC /* SignUpViewController.swift */,
+				3213E3C32A8425FA004FC7DC /* SignUp.storyboard */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		32DD77F22AB7B901009FA339 /* SportsList */ = {
+			isa = PBXGroup;
+			children = (
+				3264CDC12A9FE51C00921A71 /* SportsListViewController.swift */,
+				3264CDC52A9FE6B100921A71 /* SportsList.storyboard */,
+			);
+			path = SportsList;
+			sourceTree = "<group>";
+		};
+		32DD780A2AB7E7E6009FA339 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				32DD77F72AB7C1CC009FA339 /* Odd.swift */,
+				32DD77FC2AB7C2BA009FA339 /* Bookmaker.swift */,
+				32DD77FE2AB7C2D3009FA339 /* Market.swift */,
+				32DD78042AB7C33F009FA339 /* Score.swift */,
+				32AA33242A808AEF00F3455D /* Account.swift */,
+				32DD78002AB7C2E4009FA339 /* Outcome.swift */,
+				32DD78022AB7C310009FA339 /* HistoricalOdds.swift */,
+				3264CDB72A9FE0E700921A71 /* Sport.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		32F40D092AB39D4B00352197 /* Spies */ = {
 			isa = PBXGroup;
 			children = (
@@ -767,7 +841,6 @@
 				3213E3982A841F1B004FC7DC /* AlertViewSpy.swift */,
 				3213E39C2A841F77004FC7DC /* AddAccountSpy.swift */,
 				3213E39E2A841FC4004FC7DC /* LoadingViewSpy.swift */,
-				32F40D0A2AB39DD100352197 /* DisplaySportsSpy.swift */,
 			);
 			path = Spies;
 			sourceTree = "<group>";
@@ -1211,6 +1284,7 @@
 			files = (
 				3213E3C42A8425FA004FC7DC /* SignUp.storyboard in Resources */,
 				3264CDC62A9FE6B100921A71 /* SportsList.storyboard in Resources */,
+				320B93E22AB7F28200ABA4C4 /* OddsList.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1322,6 +1396,7 @@
 			files = (
 				3213E3C22A8424FA004FC7DC /* SignUpViewController.swift in Sources */,
 				321F47CA2A847F5100112F11 /* Extensions.swift in Sources */,
+				320B93E02AB7F27800ABA4C4 /* OddsListViewController.swift in Sources */,
 				321F47CC2A847FE700112F11 /* Storyboarded.swift in Sources */,
 				3264CDC22A9FE51C00921A71 /* SportsListViewController.swift in Sources */,
 			);
@@ -1368,6 +1443,7 @@
 				32DE17F42AAC49D4006953DE /* MainQueueDispatchDecorator.swift in Sources */,
 				32594BA72A8F1D4E00ADD9A6 /* UseCaseFactory.swift in Sources */,
 				320383462AAAD18400C51045 /* WeakVarProxy.swift in Sources */,
+				320B93E42AB7F55F00ABA4C4 /* OddsListComposer.swift in Sources */,
 				3264CDC42A9FE55F00921A71 /* SportsListComposer.swift in Sources */,
 				32DE17EF2AABBAEE006953DE /* Environment.swift in Sources */,
 				321F47F52A8485F800112F11 /* AppDelegate.swift in Sources */,
@@ -1391,6 +1467,7 @@
 				3213E3972A841DE8004FC7DC /* SignUpMapper.swift in Sources */,
 				327712BA2A81FB5D000A0BF1 /* SignUpPresenter.swift in Sources */,
 				324C1B382A83131800175941 /* LoadingView.swift in Sources */,
+				320B93DD2AB7F1D300ABA4C4 /* OddsListPresenter.swift in Sources */,
 				3213E3952A841D9E004FC7DC /* SignUpViewModel.swift in Sources */,
 				327712BE2A81FBDA000A0BF1 /* AlertView.swift in Sources */,
 				323DF9082AAED7E700CA7BE8 /* ValidationSpy.swift in Sources */,
@@ -1405,7 +1482,6 @@
 			files = (
 				3213E39D2A841F77004FC7DC /* AddAccountSpy.swift in Sources */,
 				3213E39F2A841FC4004FC7DC /* LoadingViewSpy.swift in Sources */,
-				32F40D0B2AB39DD100352197 /* DisplaySportsSpy.swift in Sources */,
 				3264CDCC2A9FECC100921A71 /* SportsListPresenterTests.swift in Sources */,
 				3264CDCE2A9FEDE800921A71 /* GetSportsSpy.swift in Sources */,
 				324C1B302A8306AD00175941 /* AccountModelFactory.swift in Sources */,
@@ -1419,13 +1495,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32DD78052AB7C33F009FA339 /* Score.swift in Sources */,
+				320B93D92AB7F14C00ABA4C4 /* GetOdds.swift in Sources */,
 				32AA33532A8095E400F3455D /* Model.swift in Sources */,
-				32F40D0D2AB39E2500352197 /* DisplaySports.swift in Sources */,
-				3264CDBA2A9FE12F00921A71 /* GetSports.swift in Sources */,
+				32DD78032AB7C310009FA339 /* HistoricalOdds.swift in Sources */,
+				320B93D72AB7F14300ABA4C4 /* GetSports.swift in Sources */,
+				32DD77FF2AB7C2D3009FA339 /* Market.swift in Sources */,
+				32DD77F82AB7C1CC009FA339 /* Odd.swift in Sources */,
+				32DD77FD2AB7C2BA009FA339 /* Bookmaker.swift in Sources */,
+				320B93DB2AB7F15400ABA4C4 /* GetScores.swift in Sources */,
 				32AA33232A8089C100F3455D /* AddAccount.swift in Sources */,
-				3264CDB82A9FE0E700921A71 /* SportModel.swift in Sources */,
+				32DD78012AB7C2E4009FA339 /* Outcome.swift in Sources */,
+				3264CDB82A9FE0E700921A71 /* Sport.swift in Sources */,
 				32AA33592A80999000F3455D /* DomainError.swift in Sources */,
-				32AA33252A808AEF00F3455D /* AccountModel.swift in Sources */,
+				32AA33252A808AEF00F3455D /* Account.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1435,6 +1518,7 @@
 			files = (
 				32AA33572A8096DE00F3455D /* HttpPostClient.swift in Sources */,
 				32AA335D2A80A21500F3455D /* ExtensionHelpers.swift in Sources */,
+				320B93E72AB805F200ABA4C4 /* RemoteGetOdds.swift in Sources */,
 				32AA335B2A809B4600F3455D /* HttpError.swift in Sources */,
 				3264CDBC2A9FE16400921A71 /* HttpGetClient.swift in Sources */,
 				32AA33552A80969B00F3455D /* RemoteAddAccount.swift in Sources */,

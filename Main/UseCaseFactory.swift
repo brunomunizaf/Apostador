@@ -26,4 +26,14 @@ final class UseCaseFactory {
       httpClient: httpClient
     )
   }
+
+  static func makeRemoteGetOdds(
+    sportKey: String,
+    apiKey: String
+  ) -> GetOdds {
+    RemoteGetOdds(
+      url: makeURL(path: "/sports/\(sportKey)/odds/?apiKey=\(apiKey)&regions=us"),
+      httpClient: httpClient
+    )
+  }
 }

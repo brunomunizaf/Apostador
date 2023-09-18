@@ -1,7 +1,7 @@
 import Domain
 import Foundation
 
-public final class RemoteGetSports: GetSports {
+public final class RemoteGetOdds: GetOdds {
   private let url: URL
   private let httpClient: HttpGetClient
 
@@ -14,14 +14,14 @@ public final class RemoteGetSports: GetSports {
   }
 
   public func get(
-    completion: @escaping (Result<[Sport], DomainError>) -> Void
+    completion: @escaping (Result<[Odd], DomainError>) -> Void
   ) {
     httpClient.get(from: url) { [weak self] in
       guard self != nil else { return }
 
       switch $0 {
       case .success(let data):
-        guard let models: [Sport] = data?.toModel() else {
+        guard let models: [Odd] = data?.toModel() else {
           completion(.failure(.decodeFailure))
           return
         }

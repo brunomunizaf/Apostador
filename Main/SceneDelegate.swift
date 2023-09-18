@@ -1,7 +1,6 @@
 import UIKit
 
 final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
-
   var window: UIWindow?
 
   func scene(
@@ -11,8 +10,13 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
   ) {
     guard let windowScene = (scene as? UIWindowScene) else { return }
     window = UIWindow(windowScene: windowScene)
-    window?.rootViewController = SportsListComposer.composeControllerWith(
-      getSports: UseCaseFactory.makeRemoteGetSports(apiKey: "3764bb90a173e8b6d9daf1eb29900d01")
+    let controller = SportsListComposer.composeControllerWith(
+      getSports: UseCaseFactory.makeRemoteGetSports(
+        apiKey: Environment.variable(.apiKey)
+      )
+    )
+    window?.rootViewController = UINavigationController(
+      rootViewController: controller
     )
     window?.makeKeyAndVisible()
   }

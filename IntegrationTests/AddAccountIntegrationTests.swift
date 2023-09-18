@@ -4,6 +4,9 @@ import Infra
 import XCTest
 
 final class AddAccountIntegrationTests: XCTestCase {
+  /// N.B: This test is failing but it
+  /// shouldn't be pinging the actual API
+  ///
   func _test_addAccount() {
     let alamofireAdapter = AlamofireAdapter()
     let addAccountModel = AddAccountModel(
@@ -17,7 +20,7 @@ final class AddAccountIntegrationTests: XCTestCase {
       url: URL(string: "https://clean-node-api.herokuapp.com/api/signup")!,
       httpClient: alamofireAdapter
     )
-    sut.add(addAccountModel: addAccountModel) { result in
+    sut.add(accountModel: addAccountModel) { result in
       switch result {
       case .success(let account):
         XCTAssertNotNil(account.id)
@@ -45,7 +48,7 @@ final class AddAccountIntegrationTests: XCTestCase {
       url: URL(string: "https://clean-node-api.herokuapp.com/api/signup")!,
       httpClient: alamofireAdapter
     )
-    sut.add(addAccountModel: addAccountModel) { result in
+    sut.add(accountModel: addAccountModel) { result in
       switch result {
       case .success(_):
         XCTFail("Expected error but got \(result) instead")
