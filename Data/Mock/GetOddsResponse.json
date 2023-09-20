@@ -1,0 +1,4987 @@
+[
+  {
+    "id": "7749754ff9a0d97b03106a0612438220",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-20T00:30:00Z",
+    "home_team": "América Mineiro",
+    "away_team": "Bragantino-SP",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 3
+              },
+              {
+                "name": "Bragantino-SP",
+                "price": 2.35
+              },
+              {
+                "name": "Draw",
+                "price": 3.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 3
+              },
+              {
+                "name": "Bragantino-SP",
+                "price": 2.45
+              },
+              {
+                "name": "Draw",
+                "price": 3.35
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 2.95
+              },
+              {
+                "name": "Bragantino-SP",
+                "price": 2.39
+              },
+              {
+                "name": "Draw",
+                "price": 3.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-09-19T23:44:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:28Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 2.9
+              },
+              {
+                "name": "Bragantino-SP",
+                "price": 2.4
+              },
+              {
+                "name": "Draw",
+                "price": 3.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 2.9
+              },
+              {
+                "name": "Bragantino-SP",
+                "price": 2.4
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 3.1
+              },
+              {
+                "name": "Bragantino-SP",
+                "price": 2.23
+              },
+              {
+                "name": "Draw",
+                "price": 3.55
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 3.1
+              },
+              {
+                "name": "Bragantino-SP",
+                "price": 2.23
+              },
+              {
+                "name": "Draw",
+                "price": 3.55
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 3.1
+              },
+              {
+                "name": "Bragantino-SP",
+                "price": 2.23
+              },
+              {
+                "name": "Draw",
+                "price": 3.55
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 3
+              },
+              {
+                "name": "Bragantino-SP",
+                "price": 2.4
+              },
+              {
+                "name": "Draw",
+                "price": 3.35
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 2.95
+              },
+              {
+                "name": "Bragantino-SP",
+                "price": 2.4
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-09-19T23:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:40Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 2.91
+              },
+              {
+                "name": "Bragantino-SP",
+                "price": 2.36
+              },
+              {
+                "name": "Draw",
+                "price": 3.44
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2023-09-19T23:44:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:42Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 3.05
+              },
+              {
+                "name": "Bragantino-SP",
+                "price": 2.35
+              },
+              {
+                "name": "Draw",
+                "price": 3.38
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-09-19T23:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:40Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 3.05
+              },
+              {
+                "name": "Bragantino-SP",
+                "price": 2.35
+              },
+              {
+                "name": "Draw",
+                "price": 3.38
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "548b0a44e7402ed23308416d6ce5866a",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-20T22:00:00Z",
+    "home_team": "Goiás",
+    "away_team": "Flamengo",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Flamengo",
+                "price": 2.4
+              },
+              {
+                "name": "Goiás",
+                "price": 3
+              },
+              {
+                "name": "Draw",
+                "price": 3.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Flamengo",
+                "price": 2.41
+              },
+              {
+                "name": "Goiás",
+                "price": 3
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Flamengo",
+                "price": 2.4
+              },
+              {
+                "name": "Goiás",
+                "price": 3
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-09-19T23:44:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:28Z",
+            "outcomes": [
+              {
+                "name": "Flamengo",
+                "price": 2.45
+              },
+              {
+                "name": "Goiás",
+                "price": 3
+              },
+              {
+                "name": "Draw",
+                "price": 3.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2023-09-19T23:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:40Z",
+            "outcomes": [
+              {
+                "name": "Flamengo",
+                "price": 2.45
+              },
+              {
+                "name": "Goiás",
+                "price": 2.95
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Flamengo",
+                "price": 2.35
+              },
+              {
+                "name": "Goiás",
+                "price": 3.1
+              },
+              {
+                "name": "Draw",
+                "price": 3.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Flamengo",
+                "price": 2.35
+              },
+              {
+                "name": "Goiás",
+                "price": 3.1
+              },
+              {
+                "name": "Draw",
+                "price": 3.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Flamengo",
+                "price": 2.35
+              },
+              {
+                "name": "Goiás",
+                "price": 3.1
+              },
+              {
+                "name": "Draw",
+                "price": 3.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Flamengo",
+                "price": 2.45
+              },
+              {
+                "name": "Goiás",
+                "price": 2.95
+              },
+              {
+                "name": "Draw",
+                "price": 3.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Flamengo",
+                "price": 2.45
+              },
+              {
+                "name": "Goiás",
+                "price": 3
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Flamengo",
+                "price": 2.4
+              },
+              {
+                "name": "Goiás",
+                "price": 3.05
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-09-19T23:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:40Z",
+            "outcomes": [
+              {
+                "name": "Flamengo",
+                "price": 2.35
+              },
+              {
+                "name": "Goiás",
+                "price": 3.08
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2023-09-19T23:44:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:42Z",
+            "outcomes": [
+              {
+                "name": "Flamengo",
+                "price": 2.43
+              },
+              {
+                "name": "Goiás",
+                "price": 3.1
+              },
+              {
+                "name": "Draw",
+                "price": 3.17
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-09-19T23:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:40Z",
+            "outcomes": [
+              {
+                "name": "Flamengo",
+                "price": 2.43
+              },
+              {
+                "name": "Goiás",
+                "price": 3.1
+              },
+              {
+                "name": "Draw",
+                "price": 3.17
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b6132fc9647332da0aa8c1b5fe4a67c5",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-21T00:30:00Z",
+    "home_team": "Fluminense",
+    "away_team": "Cruzeiro",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Cruzeiro",
+                "price": 4.8
+              },
+              {
+                "name": "Fluminense",
+                "price": 1.69
+              },
+              {
+                "name": "Draw",
+                "price": 3.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Cruzeiro",
+                "price": 4.6
+              },
+              {
+                "name": "Fluminense",
+                "price": 1.78
+              },
+              {
+                "name": "Draw",
+                "price": 3.55
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Cruzeiro",
+                "price": 4.6
+              },
+              {
+                "name": "Fluminense",
+                "price": 1.77
+              },
+              {
+                "name": "Draw",
+                "price": 3.65
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-09-19T23:44:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:28Z",
+            "outcomes": [
+              {
+                "name": "Cruzeiro",
+                "price": 4.75
+              },
+              {
+                "name": "Fluminense",
+                "price": 1.76
+              },
+              {
+                "name": "Draw",
+                "price": 3.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2023-09-19T23:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:40Z",
+            "outcomes": [
+              {
+                "name": "Cruzeiro",
+                "price": 4.6
+              },
+              {
+                "name": "Fluminense",
+                "price": 1.77
+              },
+              {
+                "name": "Draw",
+                "price": 3.6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Cruzeiro",
+                "price": 4.9
+              },
+              {
+                "name": "Fluminense",
+                "price": 1.75
+              },
+              {
+                "name": "Draw",
+                "price": 3.6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Cruzeiro",
+                "price": 4.9
+              },
+              {
+                "name": "Fluminense",
+                "price": 1.75
+              },
+              {
+                "name": "Draw",
+                "price": 3.6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Cruzeiro",
+                "price": 4.9
+              },
+              {
+                "name": "Fluminense",
+                "price": 1.75
+              },
+              {
+                "name": "Draw",
+                "price": 3.6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Cruzeiro",
+                "price": 4.5
+              },
+              {
+                "name": "Fluminense",
+                "price": 1.8
+              },
+              {
+                "name": "Draw",
+                "price": 3.45
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Cruzeiro",
+                "price": 4.5
+              },
+              {
+                "name": "Fluminense",
+                "price": 1.77
+              },
+              {
+                "name": "Draw",
+                "price": 3.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Cruzeiro",
+                "price": 4.5
+              },
+              {
+                "name": "Fluminense",
+                "price": 1.8
+              },
+              {
+                "name": "Draw",
+                "price": 3.6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2023-09-19T23:44:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:42Z",
+            "outcomes": [
+              {
+                "name": "Cruzeiro",
+                "price": 4.75
+              },
+              {
+                "name": "Fluminense",
+                "price": 1.77
+              },
+              {
+                "name": "Draw",
+                "price": 3.65
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-09-19T23:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:40Z",
+            "outcomes": [
+              {
+                "name": "Cruzeiro",
+                "price": 4.75
+              },
+              {
+                "name": "Fluminense",
+                "price": 1.77
+              },
+              {
+                "name": "Draw",
+                "price": 3.65
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-09-19T23:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:40Z",
+            "outcomes": [
+              {
+                "name": "Cruzeiro",
+                "price": 4.6
+              },
+              {
+                "name": "Fluminense",
+                "price": 1.77
+              },
+              {
+                "name": "Draw",
+                "price": 3.64
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2c04e63e3536a5597327d085ea68f36c",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-21T00:30:00Z",
+    "home_team": "Sao Paulo",
+    "away_team": "Fortaleza",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Fortaleza",
+                "price": 3
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 2.5
+              },
+              {
+                "name": "Draw",
+                "price": 3.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Fortaleza",
+                "price": 2.95
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 2.43
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Fortaleza",
+                "price": 2.95
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 2.45
+              },
+              {
+                "name": "Draw",
+                "price": 3.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-09-19T23:44:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:28Z",
+            "outcomes": [
+              {
+                "name": "Fortaleza",
+                "price": 3
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 2.4
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2023-09-19T23:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:40Z",
+            "outcomes": [
+              {
+                "name": "Fortaleza",
+                "price": 2.95
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 2.45
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Fortaleza",
+                "price": 3.2
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 2.25
+              },
+              {
+                "name": "Draw",
+                "price": 3.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Fortaleza",
+                "price": 3.2
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 2.25
+              },
+              {
+                "name": "Draw",
+                "price": 3.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Fortaleza",
+                "price": 3.2
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 2.25
+              },
+              {
+                "name": "Draw",
+                "price": 3.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Fortaleza",
+                "price": 2.9
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 2.45
+              },
+              {
+                "name": "Draw",
+                "price": 3.15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Fortaleza",
+                "price": 2.95
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 2.45
+              },
+              {
+                "name": "Draw",
+                "price": 3.15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Fortaleza",
+                "price": 2.95
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 2.45
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-09-19T23:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:40Z",
+            "outcomes": [
+              {
+                "name": "Fortaleza",
+                "price": 2.96
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 2.44
+              },
+              {
+                "name": "Draw",
+                "price": 3.24
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-09-19T23:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:40Z",
+            "outcomes": [
+              {
+                "name": "Fortaleza",
+                "price": 3.05
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 2.43
+              },
+              {
+                "name": "Draw",
+                "price": 3.23
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2023-09-19T23:44:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:42Z",
+            "outcomes": [
+              {
+                "name": "Fortaleza",
+                "price": 3.05
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 2.43
+              },
+              {
+                "name": "Draw",
+                "price": 3.23
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b8657a630f74f1acdb9058a7feef32a6",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-21T22:00:00Z",
+    "home_team": "Vasco da Gama",
+    "away_team": "Coritiba",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 5.6
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 1.63
+              },
+              {
+                "name": "Draw",
+                "price": 3.75
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 5.6
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 1.62
+              },
+              {
+                "name": "Draw",
+                "price": 3.85
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 6
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 1.57
+              },
+              {
+                "name": "Draw",
+                "price": 3.7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-09-19T23:44:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:28Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 5.75
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 1.61
+              },
+              {
+                "name": "Draw",
+                "price": 3.7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 5.25
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 1.66
+              },
+              {
+                "name": "Draw",
+                "price": 3.85
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 5.25
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 1.66
+              },
+              {
+                "name": "Draw",
+                "price": 3.85
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 5.25
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 1.66
+              },
+              {
+                "name": "Draw",
+                "price": 3.85
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2023-09-19T23:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:40Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 5.75
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 1.62
+              },
+              {
+                "name": "Draw",
+                "price": 3.75
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 5.25
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 1.64
+              },
+              {
+                "name": "Draw",
+                "price": 3.65
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 5.5
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 1.65
+              },
+              {
+                "name": "Draw",
+                "price": 3.7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-09-19T23:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:40Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 5.65
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 1.63
+              },
+              {
+                "name": "Draw",
+                "price": 3.75
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 5.75
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 1.59
+              },
+              {
+                "name": "Draw",
+                "price": 3.8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2023-09-19T23:44:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:42Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 5.9
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 1.62
+              },
+              {
+                "name": "Draw",
+                "price": 3.75
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-09-19T23:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:40Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 5.9
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 1.62
+              },
+              {
+                "name": "Draw",
+                "price": 3.75
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "35caa21ac3846f797fdef001c79269eb",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-21T22:30:00Z",
+    "home_team": "Atletico Paranaense",
+    "away_team": "Internacional",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Atletico Paranaense",
+                "price": 1.83
+              },
+              {
+                "name": "Internacional",
+                "price": 4.2
+              },
+              {
+                "name": "Draw",
+                "price": 3.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Atletico Paranaense",
+                "price": 1.91
+              },
+              {
+                "name": "Internacional",
+                "price": 4.1
+              },
+              {
+                "name": "Draw",
+                "price": 3.55
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-09-19T23:44:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:28Z",
+            "outcomes": [
+              {
+                "name": "Atletico Paranaense",
+                "price": 1.91
+              },
+              {
+                "name": "Internacional",
+                "price": 4
+              },
+              {
+                "name": "Draw",
+                "price": 3.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Atletico Paranaense",
+                "price": 1.92
+              },
+              {
+                "name": "Internacional",
+                "price": 3.9
+              },
+              {
+                "name": "Draw",
+                "price": 3.65
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Atletico Paranaense",
+                "price": 1.92
+              },
+              {
+                "name": "Internacional",
+                "price": 3.9
+              },
+              {
+                "name": "Draw",
+                "price": 3.65
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Atletico Paranaense",
+                "price": 1.92
+              },
+              {
+                "name": "Internacional",
+                "price": 3.9
+              },
+              {
+                "name": "Draw",
+                "price": 3.65
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Atletico Paranaense",
+                "price": 1.87
+              },
+              {
+                "name": "Internacional",
+                "price": 4.2
+              },
+              {
+                "name": "Draw",
+                "price": 3.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-09-19T23:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:40Z",
+            "outcomes": [
+              {
+                "name": "Atletico Paranaense",
+                "price": 1.85
+              },
+              {
+                "name": "Internacional",
+                "price": 4.3
+              },
+              {
+                "name": "Draw",
+                "price": 3.54
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2023-09-19T23:44:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:42Z",
+            "outcomes": [
+              {
+                "name": "Atletico Paranaense",
+                "price": 1.87
+              },
+              {
+                "name": "Internacional",
+                "price": 4.45
+              },
+              {
+                "name": "Draw",
+                "price": 3.45
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-09-19T23:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:40Z",
+            "outcomes": [
+              {
+                "name": "Atletico Paranaense",
+                "price": 1.87
+              },
+              {
+                "name": "Internacional",
+                "price": 4.45
+              },
+              {
+                "name": "Draw",
+                "price": 3.45
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fd7e534e140eaea2ad929a36adb58f7b",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-22T00:30:00Z",
+    "home_team": "Gremio",
+    "away_team": "Palmeiras",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Gremio",
+                "price": 2.8
+              },
+              {
+                "name": "Palmeiras",
+                "price": 2.55
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Gremio",
+                "price": 2.85
+              },
+              {
+                "name": "Palmeiras",
+                "price": 2.47
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Gremio",
+                "price": 2.9
+              },
+              {
+                "name": "Palmeiras",
+                "price": 2.5
+              },
+              {
+                "name": "Draw",
+                "price": 3.35
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-09-19T23:44:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:28Z",
+            "outcomes": [
+              {
+                "name": "Gremio",
+                "price": 2.85
+              },
+              {
+                "name": "Palmeiras",
+                "price": 2.5
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Gremio",
+                "price": 2.75
+              },
+              {
+                "name": "Palmeiras",
+                "price": 2.55
+              },
+              {
+                "name": "Draw",
+                "price": 3.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Gremio",
+                "price": 2.75
+              },
+              {
+                "name": "Palmeiras",
+                "price": 2.55
+              },
+              {
+                "name": "Draw",
+                "price": 3.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Gremio",
+                "price": 2.75
+              },
+              {
+                "name": "Palmeiras",
+                "price": 2.55
+              },
+              {
+                "name": "Draw",
+                "price": 3.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Gremio",
+                "price": 2.8
+              },
+              {
+                "name": "Palmeiras",
+                "price": 2.5
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Gremio",
+                "price": 2.8
+              },
+              {
+                "name": "Palmeiras",
+                "price": 2.5
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-09-19T23:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:40Z",
+            "outcomes": [
+              {
+                "name": "Gremio",
+                "price": 2.85
+              },
+              {
+                "name": "Palmeiras",
+                "price": 2.47
+              },
+              {
+                "name": "Draw",
+                "price": 3.32
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Gremio",
+                "price": 2.9
+              },
+              {
+                "name": "Palmeiras",
+                "price": 2.5
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2023-09-19T23:44:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:42Z",
+            "outcomes": [
+              {
+                "name": "Gremio",
+                "price": 2.93
+              },
+              {
+                "name": "Palmeiras",
+                "price": 2.52
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-09-19T23:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:40Z",
+            "outcomes": [
+              {
+                "name": "Gremio",
+                "price": 2.93
+              },
+              {
+                "name": "Palmeiras",
+                "price": 2.52
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9256f7bdffa3c02051b41e7d4a1e8e0b",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-22T23:00:00Z",
+    "home_team": "Corinthians",
+    "away_team": "Botafogo",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 3
+              },
+              {
+                "name": "Corinthians",
+                "price": 2.5
+              },
+              {
+                "name": "Draw",
+                "price": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 2.9
+              },
+              {
+                "name": "Corinthians",
+                "price": 2.55
+              },
+              {
+                "name": "Draw",
+                "price": 3.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 2.9
+              },
+              {
+                "name": "Corinthians",
+                "price": 2.55
+              },
+              {
+                "name": "Draw",
+                "price": 3.15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-09-19T23:44:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:28Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 2.85
+              },
+              {
+                "name": "Corinthians",
+                "price": 2.6
+              },
+              {
+                "name": "Draw",
+                "price": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 2.9
+              },
+              {
+                "name": "Corinthians",
+                "price": 2.5
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 2.9
+              },
+              {
+                "name": "Corinthians",
+                "price": 2.5
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 2.9
+              },
+              {
+                "name": "Corinthians",
+                "price": 2.5
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2023-09-19T23:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:40Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 2.85
+              },
+              {
+                "name": "Corinthians",
+                "price": 2.55
+              },
+              {
+                "name": "Draw",
+                "price": 3.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 2.85
+              },
+              {
+                "name": "Corinthians",
+                "price": 2.6
+              },
+              {
+                "name": "Draw",
+                "price": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 2.9
+              },
+              {
+                "name": "Corinthians",
+                "price": 2.55
+              },
+              {
+                "name": "Draw",
+                "price": 3.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-09-19T23:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:40Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 2.9
+              },
+              {
+                "name": "Corinthians",
+                "price": 2.55
+              },
+              {
+                "name": "Draw",
+                "price": 3.15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 3
+              },
+              {
+                "name": "Corinthians",
+                "price": 2.55
+              },
+              {
+                "name": "Draw",
+                "price": 2.95
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "99c440537f212c510d7d29560cc1b53a",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-24T00:00:00Z",
+    "home_team": "Atletico Mineiro",
+    "away_team": "Cuiabá",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 1.5
+              },
+              {
+                "name": "Cuiabá",
+                "price": 6.5
+              },
+              {
+                "name": "Draw",
+                "price": 3.7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 1.59
+              },
+              {
+                "name": "Cuiabá",
+                "price": 6
+              },
+              {
+                "name": "Draw",
+                "price": 3.9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 1.56
+              },
+              {
+                "name": "Cuiabá",
+                "price": 6
+              },
+              {
+                "name": "Draw",
+                "price": 3.7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 1.55
+              },
+              {
+                "name": "Cuiabá",
+                "price": 6.75
+              },
+              {
+                "name": "Draw",
+                "price": 3.8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 1.55
+              },
+              {
+                "name": "Cuiabá",
+                "price": 6.75
+              },
+              {
+                "name": "Draw",
+                "price": 3.8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 1.55
+              },
+              {
+                "name": "Cuiabá",
+                "price": 6.75
+              },
+              {
+                "name": "Draw",
+                "price": 3.8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-09-19T23:44:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:28Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 1.56
+              },
+              {
+                "name": "Cuiabá",
+                "price": 6.5
+              },
+              {
+                "name": "Draw",
+                "price": 3.7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 1.59
+              },
+              {
+                "name": "Cuiabá",
+                "price": 5.75
+              },
+              {
+                "name": "Draw",
+                "price": 3.75
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-09-19T23:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:40Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 1.59
+              },
+              {
+                "name": "Cuiabá",
+                "price": 6
+              },
+              {
+                "name": "Draw",
+                "price": 3.9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 1.58
+              },
+              {
+                "name": "Cuiabá",
+                "price": 5.75
+              },
+              {
+                "name": "Draw",
+                "price": 3.7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 1.56
+              },
+              {
+                "name": "Cuiabá",
+                "price": 6
+              },
+              {
+                "name": "Draw",
+                "price": 3.75
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "660db94906dc309034b07a0e78b665eb",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-25T23:00:00Z",
+    "home_team": "América Mineiro",
+    "away_team": "Vasco da Gama",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 2.25
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 3.2
+              },
+              {
+                "name": "Draw",
+                "price": 3.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 2.25
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 3
+              },
+              {
+                "name": "Draw",
+                "price": 3.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 2.3
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 3.05
+              },
+              {
+                "name": "Draw",
+                "price": 3.45
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 2.23
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 3.4
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 2.23
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 3.4
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 2.23
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 3.4
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-09-19T23:44:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:28Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 2.3
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 3.1
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 2.27
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 3
+              },
+              {
+                "name": "Draw",
+                "price": 3.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-09-19T23:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:40Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 2.3
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 3.05
+              },
+              {
+                "name": "Draw",
+                "price": 3.45
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 2.3
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 3
+              },
+              {
+                "name": "Draw",
+                "price": 3.3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1a3d8319bca8b664e94d9ea13d63be60",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-27T22:00:00Z",
+    "home_team": "Sao Paulo",
+    "away_team": "Coritiba",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 7.5
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 1.37
+              },
+              {
+                "name": "Draw",
+                "price": 4.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 6.75
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 1.48
+              },
+              {
+                "name": "Draw",
+                "price": 4.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 6.8
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 1.47
+              },
+              {
+                "name": "Draw",
+                "price": 4.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 6.25
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 1.48
+              },
+              {
+                "name": "Draw",
+                "price": 4.15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-09-19T23:44:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:28Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 7.5
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 1.44
+              },
+              {
+                "name": "Draw",
+                "price": 4.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 7.5
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 1.47
+              },
+              {
+                "name": "Draw",
+                "price": 4.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 7.5
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 1.47
+              },
+              {
+                "name": "Draw",
+                "price": 4.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 7.5
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 1.47
+              },
+              {
+                "name": "Draw",
+                "price": 4.25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b1ee9f065a64203fef74c95f1a5d7911",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-30T19:00:00Z",
+    "home_team": "Flamengo",
+    "away_team": "Bahia",
+    "bookmakers": [
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Bahia",
+                "price": 8
+              },
+              {
+                "name": "Flamengo",
+                "price": 1.36
+              },
+              {
+                "name": "Draw",
+                "price": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Bahia",
+                "price": 8
+              },
+              {
+                "name": "Flamengo",
+                "price": 1.36
+              },
+              {
+                "name": "Draw",
+                "price": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Bahia",
+                "price": 8
+              },
+              {
+                "name": "Flamengo",
+                "price": 1.36
+              },
+              {
+                "name": "Draw",
+                "price": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Bahia",
+                "price": 8
+              },
+              {
+                "name": "Flamengo",
+                "price": 1.35
+              },
+              {
+                "name": "Draw",
+                "price": 5.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Bahia",
+                "price": 8
+              },
+              {
+                "name": "Flamengo",
+                "price": 1.31
+              },
+              {
+                "name": "Draw",
+                "price": 5.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Bahia",
+                "price": 8
+              },
+              {
+                "name": "Flamengo",
+                "price": 1.34
+              },
+              {
+                "name": "Draw",
+                "price": 5.4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0ec0e48a5f898f193feab3524b8f355a",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-30T19:00:00Z",
+    "home_team": "Fortaleza",
+    "away_team": "Gremio",
+    "bookmakers": [
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Fortaleza",
+                "price": 1.97
+              },
+              {
+                "name": "Gremio",
+                "price": 3.75
+              },
+              {
+                "name": "Draw",
+                "price": 3.55
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Fortaleza",
+                "price": 1.97
+              },
+              {
+                "name": "Gremio",
+                "price": 3.75
+              },
+              {
+                "name": "Draw",
+                "price": 3.55
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Fortaleza",
+                "price": 1.97
+              },
+              {
+                "name": "Gremio",
+                "price": 3.75
+              },
+              {
+                "name": "Draw",
+                "price": 3.55
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Fortaleza",
+                "price": 1.99
+              },
+              {
+                "name": "Gremio",
+                "price": 3.7
+              },
+              {
+                "name": "Draw",
+                "price": 3.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Fortaleza",
+                "price": 2
+              },
+              {
+                "name": "Gremio",
+                "price": 3.6
+              },
+              {
+                "name": "Draw",
+                "price": 3.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Fortaleza",
+                "price": 2
+              },
+              {
+                "name": "Gremio",
+                "price": 3.7
+              },
+              {
+                "name": "Draw",
+                "price": 3.6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cb45fe23b27b59f1bb0dc277140476b1",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-30T21:30:00Z",
+    "home_team": "Sao Paulo",
+    "away_team": "Corinthians",
+    "bookmakers": [
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Corinthians",
+                "price": 4.9
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 1.85
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Corinthians",
+                "price": 4.9
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 1.85
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Corinthians",
+                "price": 4.9
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 1.85
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Corinthians",
+                "price": 4.5
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 1.88
+              },
+              {
+                "name": "Draw",
+                "price": 3.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Corinthians",
+                "price": 4.8
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 1.83
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Corinthians",
+                "price": 4.5
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 1.87
+              },
+              {
+                "name": "Draw",
+                "price": 3.4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ccfb10b53d4437b31ba09f87d9fcdb6b",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-30T21:30:00Z",
+    "home_team": "Cuiabá",
+    "away_team": "Fluminense",
+    "bookmakers": [
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Cuiabá",
+                "price": 2.7
+              },
+              {
+                "name": "Fluminense",
+                "price": 2.75
+              },
+              {
+                "name": "Draw",
+                "price": 3.15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Cuiabá",
+                "price": 2.7
+              },
+              {
+                "name": "Fluminense",
+                "price": 2.75
+              },
+              {
+                "name": "Draw",
+                "price": 3.15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Cuiabá",
+                "price": 2.7
+              },
+              {
+                "name": "Fluminense",
+                "price": 2.75
+              },
+              {
+                "name": "Draw",
+                "price": 3.15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Cuiabá",
+                "price": 2.75
+              },
+              {
+                "name": "Fluminense",
+                "price": 2.75
+              },
+              {
+                "name": "Draw",
+                "price": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Cuiabá",
+                "price": 2.7
+              },
+              {
+                "name": "Fluminense",
+                "price": 2.7
+              },
+              {
+                "name": "Draw",
+                "price": 3.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Cuiabá",
+                "price": 2.7
+              },
+              {
+                "name": "Fluminense",
+                "price": 2.75
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9f24e4d540cff6346a0824d6bb6f4783",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-10-01T00:00:00Z",
+    "home_team": "Internacional",
+    "away_team": "Atletico Mineiro",
+    "bookmakers": [
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 3.1
+              },
+              {
+                "name": "Internacional",
+                "price": 2.5
+              },
+              {
+                "name": "Draw",
+                "price": 3.05
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 3.1
+              },
+              {
+                "name": "Internacional",
+                "price": 2.5
+              },
+              {
+                "name": "Draw",
+                "price": 3.05
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 3.1
+              },
+              {
+                "name": "Internacional",
+                "price": 2.5
+              },
+              {
+                "name": "Draw",
+                "price": 3.05
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 3
+              },
+              {
+                "name": "Internacional",
+                "price": 2.5
+              },
+              {
+                "name": "Draw",
+                "price": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 3.05
+              },
+              {
+                "name": "Internacional",
+                "price": 2.5
+              },
+              {
+                "name": "Draw",
+                "price": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 3.05
+              },
+              {
+                "name": "Internacional",
+                "price": 2.5
+              },
+              {
+                "name": "Draw",
+                "price": 3.1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d9211b6eb743b877a4972e7d3ed87105",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-10-01T19:00:00Z",
+    "home_team": "Cruzeiro",
+    "away_team": "América Mineiro",
+    "bookmakers": [
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 5.2
+              },
+              {
+                "name": "Cruzeiro",
+                "price": 1.68
+              },
+              {
+                "name": "Draw",
+                "price": 3.75
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 5.2
+              },
+              {
+                "name": "Cruzeiro",
+                "price": 1.68
+              },
+              {
+                "name": "Draw",
+                "price": 3.75
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 5.2
+              },
+              {
+                "name": "Cruzeiro",
+                "price": 1.68
+              },
+              {
+                "name": "Draw",
+                "price": 3.75
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 4.9
+              },
+              {
+                "name": "Cruzeiro",
+                "price": 1.69
+              },
+              {
+                "name": "Draw",
+                "price": 3.8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 5.3
+              },
+              {
+                "name": "Cruzeiro",
+                "price": 1.61
+              },
+              {
+                "name": "Draw",
+                "price": 3.6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "América Mineiro",
+                "price": 4.9
+              },
+              {
+                "name": "Cruzeiro",
+                "price": 1.69
+              },
+              {
+                "name": "Draw",
+                "price": 3.9
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a8fb2c55d304df5d6f2b9003d83bd1fb",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-10-01T19:00:00Z",
+    "home_team": "Coritiba",
+    "away_team": "Atletico Paranaense",
+    "bookmakers": [
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Atletico Paranaense",
+                "price": 2.75
+              },
+              {
+                "name": "Coritiba",
+                "price": 2.65
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Atletico Paranaense",
+                "price": 2.75
+              },
+              {
+                "name": "Coritiba",
+                "price": 2.65
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Atletico Paranaense",
+                "price": 2.75
+              },
+              {
+                "name": "Coritiba",
+                "price": 2.65
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Atletico Paranaense",
+                "price": 2.75
+              },
+              {
+                "name": "Coritiba",
+                "price": 2.7
+              },
+              {
+                "name": "Draw",
+                "price": 3.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Atletico Paranaense",
+                "price": 2.75
+              },
+              {
+                "name": "Coritiba",
+                "price": 2.65
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "70013335787ff3cf50a0501721f420cb",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-10-01T19:00:00Z",
+    "home_team": "Santos",
+    "away_team": "Vasco da Gama",
+    "bookmakers": [
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Santos",
+                "price": 1.93
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 4.4
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Santos",
+                "price": 1.93
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 4.4
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Santos",
+                "price": 1.93
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 4.4
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Santos",
+                "price": 2.05
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 4
+              },
+              {
+                "name": "Draw",
+                "price": 3.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Santos",
+                "price": 2.15
+              },
+              {
+                "name": "Vasco da Gama",
+                "price": 3.6
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7ff6e7da258dc4d4d259f35ccd400561",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-10-01T21:30:00Z",
+    "home_team": "Bragantino-SP",
+    "away_team": "Palmeiras",
+    "bookmakers": [
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Bragantino-SP",
+                "price": 2.15
+              },
+              {
+                "name": "Palmeiras",
+                "price": 3.3
+              },
+              {
+                "name": "Draw",
+                "price": 3.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Bragantino-SP",
+                "price": 2.15
+              },
+              {
+                "name": "Palmeiras",
+                "price": 3.3
+              },
+              {
+                "name": "Draw",
+                "price": 3.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Bragantino-SP",
+                "price": 2.15
+              },
+              {
+                "name": "Palmeiras",
+                "price": 3.3
+              },
+              {
+                "name": "Draw",
+                "price": 3.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Bragantino-SP",
+                "price": 2.2
+              },
+              {
+                "name": "Palmeiras",
+                "price": 3.2
+              },
+              {
+                "name": "Draw",
+                "price": 3.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Bragantino-SP",
+                "price": 2.18
+              },
+              {
+                "name": "Palmeiras",
+                "price": 3.2
+              },
+              {
+                "name": "Draw",
+                "price": 3.45
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Bragantino-SP",
+                "price": 2.2
+              },
+              {
+                "name": "Palmeiras",
+                "price": 3.25
+              },
+              {
+                "name": "Draw",
+                "price": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a493b75dc2a892803bace707df2ef7ff",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-10-02T23:00:00Z",
+    "home_team": "Botafogo",
+    "away_team": "Goiás",
+    "bookmakers": [
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 1.51
+              },
+              {
+                "name": "Goiás",
+                "price": 7
+              },
+              {
+                "name": "Draw",
+                "price": 4.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 1.51
+              },
+              {
+                "name": "Goiás",
+                "price": 7
+              },
+              {
+                "name": "Draw",
+                "price": 4.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 1.51
+              },
+              {
+                "name": "Goiás",
+                "price": 7
+              },
+              {
+                "name": "Draw",
+                "price": 4.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 1.48
+              },
+              {
+                "name": "Goiás",
+                "price": 6.8
+              },
+              {
+                "name": "Draw",
+                "price": 4.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-19T23:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:20Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 1.42
+              },
+              {
+                "name": "Goiás",
+                "price": 7
+              },
+              {
+                "name": "Draw",
+                "price": 4.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-19T23:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-19T23:44:21Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 1.48
+              },
+              {
+                "name": "Goiás",
+                "price": 7
+              },
+              {
+                "name": "Draw",
+                "price": 4.3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

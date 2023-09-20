@@ -87,6 +87,15 @@
 		327712B12A81F4BA000A0BF1 /* SignUpPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327712B02A81F4BA000A0BF1 /* SignUpPresenterTests.swift */; };
 		327712BA2A81FB5D000A0BF1 /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327712B92A81FB5D000A0BF1 /* SignUpPresenter.swift */; };
 		327712BE2A81FBDA000A0BF1 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327712BD2A81FBDA000A0BF1 /* AlertView.swift */; };
+		3282F7DA2ABA69DC009BE799 /* GetSportsResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 3282F7D92ABA69DC009BE799 /* GetSportsResponse.json */; };
+		3282F7DC2ABA6A36009BE799 /* GetOddsResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 3282F7DB2ABA6A36009BE799 /* GetOddsResponse.json */; };
+		3282F7DE2ABA6AA6009BE799 /* GetScoresResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 3282F7DD2ABA6AA6009BE799 /* GetScoresResponse.json */; };
+		3282F7E32ABA6DDB009BE799 /* MockGetSports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3282F7E22ABA6DDB009BE799 /* MockGetSports.swift */; };
+		3282F7E72ABA6DFD009BE799 /* MockGetOdds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3282F7E62ABA6DFD009BE799 /* MockGetOdds.swift */; };
+		3282F7EC2ABA7D5F009BE799 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3282F7EB2ABA7D5F009BE799 /* DetailsViewController.swift */; };
+		3282F7EE2ABA7D67009BE799 /* Details.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3282F7ED2ABA7D67009BE799 /* Details.storyboard */; };
+		3282F7F62ABA7E87009BE799 /* DetailsComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3282F7F52ABA7E87009BE799 /* DetailsComposer.swift */; };
+		3282F7FE2ABAAE82009BE799 /* DetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3282F7FD2ABAAE82009BE799 /* DetailsHeaderView.swift */; };
 		32A8F6122A847A89003CC506 /* TestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8F6112A847A89003CC506 /* TestExtensions.swift */; };
 		32AA33232A8089C100F3455D /* AddAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AA33222A8089C100F3455D /* AddAccount.swift */; };
 		32AA33252A808AEF00F3455D /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AA33242A808AEF00F3455D /* Account.swift */; };
@@ -409,6 +418,15 @@
 		327712B92A81FB5D000A0BF1 /* SignUpPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPresenter.swift; sourceTree = "<group>"; };
 		327712BD2A81FBDA000A0BF1 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		327712BF2A81FE99000A0BF1 /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
+		3282F7D92ABA69DC009BE799 /* GetSportsResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GetSportsResponse.json; sourceTree = "<group>"; };
+		3282F7DB2ABA6A36009BE799 /* GetOddsResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GetOddsResponse.json; sourceTree = "<group>"; };
+		3282F7DD2ABA6AA6009BE799 /* GetScoresResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GetScoresResponse.json; sourceTree = "<group>"; };
+		3282F7E22ABA6DDB009BE799 /* MockGetSports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGetSports.swift; sourceTree = "<group>"; };
+		3282F7E62ABA6DFD009BE799 /* MockGetOdds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGetOdds.swift; sourceTree = "<group>"; };
+		3282F7EB2ABA7D5F009BE799 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		3282F7ED2ABA7D67009BE799 /* Details.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Details.storyboard; sourceTree = "<group>"; };
+		3282F7F52ABA7E87009BE799 /* DetailsComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsComposer.swift; sourceTree = "<group>"; };
+		3282F7FD2ABAAE82009BE799 /* DetailsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsHeaderView.swift; sourceTree = "<group>"; };
 		32A8F6112A847A89003CC506 /* TestExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExtensions.swift; sourceTree = "<group>"; };
 		32AA331B2A80896100F3455D /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32AA33222A8089C100F3455D /* AddAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccount.swift; sourceTree = "<group>"; };
@@ -589,6 +607,7 @@
 				32594BA82A8F1DC200ADD9A6 /* SignUpComposer.swift */,
 				320B93E32AB7F55F00ABA4C4 /* OddsListComposer.swift */,
 				3264CDC32A9FE55F00921A71 /* SportsListComposer.swift */,
+				3282F7F52ABA7E87009BE799 /* DetailsComposer.swift */,
 			);
 			path = Composers;
 			sourceTree = "<group>";
@@ -596,6 +615,7 @@
 		3213E3A82A8421FC004FC7DC /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				3282F7EA2ABA7D55009BE799 /* Details */,
 				320B93DE2AB7F26800ABA4C4 /* OddsList */,
 				32DD77F22AB7B901009FA339 /* SportsList */,
 				32DD77F12AB7B8FC009FA339 /* SignUp */,
@@ -667,14 +687,12 @@
 		327712A52A81F4BA000A0BF1 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				327712B92A81FB5D000A0BF1 /* SignUpPresenter.swift */,
+				3282F7F12ABA7E3D009BE799 /* OddsList */,
+				3282F7F02ABA7E35009BE799 /* SportsList */,
+				3282F7EF2ABA7E2C009BE799 /* SignUp */,
 				327712BD2A81FBDA000A0BF1 /* AlertView.swift */,
 				324C1B372A83131800175941 /* LoadingView.swift */,
-				3213E3942A841D9E004FC7DC /* SignUpViewModel.swift */,
-				3213E3962A841DE8004FC7DC /* SignUpMapper.swift */,
-				3264CDBF2A9FE4FC00921A71 /* SportsListPresenter.swift */,
 				323DF9032AAED75500CA7BE8 /* Validation.swift */,
-				320B93DC2AB7F1D300ABA4C4 /* OddsListPresenter.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -688,6 +706,67 @@
 				3264CDCB2A9FECC100921A71 /* SportsListPresenterTests.swift */,
 			);
 			path = PresentationTests;
+			sourceTree = "<group>";
+		};
+		3282F7E02ABA6DAB009BE799 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				32AA33542A80969B00F3455D /* RemoteAddAccount.swift */,
+				32AA33562A8096DE00F3455D /* HttpPostClient.swift */,
+				32AA335A2A809B4600F3455D /* HttpError.swift */,
+				3264CDBB2A9FE16400921A71 /* HttpGetClient.swift */,
+				3264CDBD2A9FE1F400921A71 /* RemoteGetSports.swift */,
+				320B93E62AB805F200ABA4C4 /* RemoteGetOdds.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		3282F7E12ABA6DC9009BE799 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				3282F7D92ABA69DC009BE799 /* GetSportsResponse.json */,
+				3282F7DB2ABA6A36009BE799 /* GetOddsResponse.json */,
+				3282F7DD2ABA6AA6009BE799 /* GetScoresResponse.json */,
+				3282F7E22ABA6DDB009BE799 /* MockGetSports.swift */,
+				3282F7E62ABA6DFD009BE799 /* MockGetOdds.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		3282F7EA2ABA7D55009BE799 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				3282F7EB2ABA7D5F009BE799 /* DetailsViewController.swift */,
+				3282F7ED2ABA7D67009BE799 /* Details.storyboard */,
+				3282F7FD2ABAAE82009BE799 /* DetailsHeaderView.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		3282F7EF2ABA7E2C009BE799 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				327712B92A81FB5D000A0BF1 /* SignUpPresenter.swift */,
+				3213E3942A841D9E004FC7DC /* SignUpViewModel.swift */,
+				3213E3962A841DE8004FC7DC /* SignUpMapper.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		3282F7F02ABA7E35009BE799 /* SportsList */ = {
+			isa = PBXGroup;
+			children = (
+				3264CDBF2A9FE4FC00921A71 /* SportsListPresenter.swift */,
+			);
+			path = SportsList;
+			sourceTree = "<group>";
+		};
+		3282F7F12ABA7E3D009BE799 /* OddsList */ = {
+			isa = PBXGroup;
+			children = (
+				320B93DC2AB7F1D300ABA4C4 /* OddsListPresenter.swift */,
+			);
+			path = OddsList;
 			sourceTree = "<group>";
 		};
 		32AA33022A8088CF00F3455D = {
@@ -752,13 +831,9 @@
 		32AA33382A808B4700F3455D /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				32AA33542A80969B00F3455D /* RemoteAddAccount.swift */,
-				32AA33562A8096DE00F3455D /* HttpPostClient.swift */,
-				32AA335A2A809B4600F3455D /* HttpError.swift */,
+				3282F7E12ABA6DC9009BE799 /* Mock */,
+				3282F7E02ABA6DAB009BE799 /* Remote */,
 				32AA335C2A80A21500F3455D /* ExtensionHelpers.swift */,
-				3264CDBB2A9FE16400921A71 /* HttpGetClient.swift */,
-				3264CDBD2A9FE1F400921A71 /* RemoteGetSports.swift */,
-				320B93E62AB805F200ABA4C4 /* RemoteGetOdds.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -939,6 +1014,8 @@
 				3213E3BF2A8423FF004FC7DC /* PBXTargetDependency */,
 			);
 			name = UI;
+			packageProductDependencies = (
+			);
 			productName = UI;
 			productReference = 3213E3A72A8421FC004FC7DC /* UI.framework */;
 			productType = "com.apple.product-type.framework";
@@ -1288,6 +1365,7 @@
 				3213E3C42A8425FA004FC7DC /* SignUp.storyboard in Resources */,
 				3264CDC62A9FE6B100921A71 /* SportsList.storyboard in Resources */,
 				320B93E22AB7F28200ABA4C4 /* OddsList.storyboard in Resources */,
+				3282F7EE2ABA7D67009BE799 /* Details.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1316,7 +1394,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3282F7DE2ABA6AA6009BE799 /* GetScoresResponse.json in Resources */,
 				321F48012A8485FB00112F11 /* LaunchScreen.storyboard in Resources */,
+				3282F7DA2ABA69DC009BE799 /* GetSportsResponse.json in Resources */,
+				3282F7DC2ABA6A36009BE799 /* GetOddsResponse.json in Resources */,
 				321F47FE2A8485FB00112F11 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1401,7 +1482,9 @@
 				321F47CA2A847F5100112F11 /* Extensions.swift in Sources */,
 				320B93E02AB7F27800ABA4C4 /* OddsListViewController.swift in Sources */,
 				321F47CC2A847FE700112F11 /* Storyboarded.swift in Sources */,
+				3282F7FE2ABAAE82009BE799 /* DetailsHeaderView.swift in Sources */,
 				3264CDC22A9FE51C00921A71 /* SportsListViewController.swift in Sources */,
+				3282F7EC2ABA7D5F009BE799 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1451,6 +1534,7 @@
 				32DE17EF2AABBAEE006953DE /* Environment.swift in Sources */,
 				321F47F52A8485F800112F11 /* AppDelegate.swift in Sources */,
 				321F47F72A8485F800112F11 /* SceneDelegate.swift in Sources */,
+				3282F7F62ABA7E87009BE799 /* DetailsComposer.swift in Sources */,
 				32594BA92A8F1DC200ADD9A6 /* SignUpComposer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1523,10 +1607,12 @@
 				32AA33572A8096DE00F3455D /* HttpPostClient.swift in Sources */,
 				32AA335D2A80A21500F3455D /* ExtensionHelpers.swift in Sources */,
 				320B93E72AB805F200ABA4C4 /* RemoteGetOdds.swift in Sources */,
+				3282F7E32ABA6DDB009BE799 /* MockGetSports.swift in Sources */,
 				32AA335B2A809B4600F3455D /* HttpError.swift in Sources */,
 				3264CDBC2A9FE16400921A71 /* HttpGetClient.swift in Sources */,
 				32AA33552A80969B00F3455D /* RemoteAddAccount.swift in Sources */,
 				3264CDBE2A9FE1F400921A71 /* RemoteGetSports.swift in Sources */,
+				3282F7E72ABA6DFD009BE799 /* MockGetOdds.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

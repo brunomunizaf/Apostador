@@ -12,6 +12,8 @@ public final class SportsListViewController: UIViewController, Storyboarded {
 
   public override func viewDidLoad() {
     super.viewDidLoad()
+    title = "Esportes"
+
     sportsTableView.delegate = self
     sportsTableView.dataSource = self
     fetch? { [weak self] sports in
@@ -76,8 +78,11 @@ extension SportsListViewController: UITableViewDataSource {
       withIdentifier: "SportsListCell",
       for: indexPath
     )
-    let title = dataSet[indexPath.section].sports[indexPath.row].title
-    cell.textLabel?.text = title
+    var content = cell.defaultContentConfiguration()
+    content.text = dataSet[indexPath.section].sports[indexPath.row].title
+    content.secondaryText = dataSet[indexPath.section].sports[indexPath.row].description
+    cell.contentConfiguration = content
+    cell.selectionStyle = .none
     return cell
   }
 }

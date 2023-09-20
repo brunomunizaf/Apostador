@@ -13,6 +13,10 @@ public final class AlamofireAdapter: HttpPostClient, HttpGetClient {
     from url: URL,
     completion: @escaping (Result<Data?, HttpError>) -> Void
   ) {
+    print(">>> Will perform URL request to:")
+    print(url.absoluteString)
+    print("------------------------------")
+
     session
       .request(
         url,
@@ -44,6 +48,10 @@ public final class AlamofireAdapter: HttpPostClient, HttpGetClient {
           default:
             completion(.failure(.noConnectivityError))
           }
+
+          print(">>> Did receive URL response:")
+          print(String(data: data, encoding: .utf8)!)
+          print("------------------------------")
         }
       }
   }

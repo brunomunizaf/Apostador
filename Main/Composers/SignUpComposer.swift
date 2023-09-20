@@ -1,5 +1,4 @@
 import Domain
-import Foundation
 import Infra
 import Presentation
 import UI

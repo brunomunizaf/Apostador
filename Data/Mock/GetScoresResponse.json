@@ -1,0 +1,253 @@
+[
+  {
+    "id": "6590c486748b214f2da5eb76d7ba3db9",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-19T00:01:39Z",
+    "completed": true,
+    "home_team": "Corinthians",
+    "away_team": "Gremio",
+    "scores": [
+      {
+        "name": "Corinthians",
+        "score": "4"
+      },
+      {
+        "name": "Gremio",
+        "score": "4"
+      }
+    ],
+    "last_update": "2023-09-19T07:05:59Z"
+  },
+  {
+    "id": "7749754ff9a0d97b03106a0612438220",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-20T00:30:00Z",
+    "completed": false,
+    "home_team": "América Mineiro",
+    "away_team": "Bragantino-SP",
+    "scores": null,
+    "last_update": "2023-09-19T07:28:00Z"
+  },
+  {
+    "id": "548b0a44e7402ed23308416d6ce5866a",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-20T22:00:00Z",
+    "completed": false,
+    "home_team": "Goiás",
+    "away_team": "Flamengo",
+    "scores": null,
+    "last_update": null
+  },
+  {
+    "id": "b6132fc9647332da0aa8c1b5fe4a67c5",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-21T00:30:00Z",
+    "completed": false,
+    "home_team": "Fluminense",
+    "away_team": "Cruzeiro",
+    "scores": null,
+    "last_update": null
+  },
+  {
+    "id": "2c04e63e3536a5597327d085ea68f36c",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-21T00:30:00Z",
+    "completed": false,
+    "home_team": "Sao Paulo",
+    "away_team": "Fortaleza",
+    "scores": null,
+    "last_update": null
+  },
+  {
+    "id": "b8657a630f74f1acdb9058a7feef32a6",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-21T22:00:00Z",
+    "completed": false,
+    "home_team": "Vasco da Gama",
+    "away_team": "Coritiba",
+    "scores": null,
+    "last_update": null
+  },
+  {
+    "id": "35caa21ac3846f797fdef001c79269eb",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-21T22:30:00Z",
+    "completed": false,
+    "home_team": "Atletico Paranaense",
+    "away_team": "Internacional",
+    "scores": null,
+    "last_update": null
+  },
+  {
+    "id": "fd7e534e140eaea2ad929a36adb58f7b",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-22T00:30:00Z",
+    "completed": false,
+    "home_team": "Gremio",
+    "away_team": "Palmeiras",
+    "scores": null,
+    "last_update": null
+  },
+  {
+    "id": "9256f7bdffa3c02051b41e7d4a1e8e0b",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-22T23:00:00Z",
+    "completed": false,
+    "home_team": "Corinthians",
+    "away_team": "Botafogo",
+    "scores": null,
+    "last_update": null
+  },
+  {
+    "id": "99c440537f212c510d7d29560cc1b53a",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-24T00:00:00Z",
+    "completed": false,
+    "home_team": "Atletico Mineiro",
+    "away_team": "Cuiabá",
+    "scores": null,
+    "last_update": null
+  },
+  {
+    "id": "660db94906dc309034b07a0e78b665eb",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-25T23:00:00Z",
+    "completed": false,
+    "home_team": "América Mineiro",
+    "away_team": "Vasco da Gama",
+    "scores": null,
+    "last_update": null
+  },
+  {
+    "id": "1a3d8319bca8b664e94d9ea13d63be60",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-27T22:00:00Z",
+    "completed": false,
+    "home_team": "Sao Paulo",
+    "away_team": "Coritiba",
+    "scores": null,
+    "last_update": null
+  },
+  {
+    "id": "b1ee9f065a64203fef74c95f1a5d7911",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-30T19:00:00Z",
+    "completed": false,
+    "home_team": "Flamengo",
+    "away_team": "Bahia",
+    "scores": null,
+    "last_update": null
+  },
+  {
+    "id": "0ec0e48a5f898f193feab3524b8f355a",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-30T19:00:00Z",
+    "completed": false,
+    "home_team": "Fortaleza",
+    "away_team": "Gremio",
+    "scores": null,
+    "last_update": null
+  },
+  {
+    "id": "cb45fe23b27b59f1bb0dc277140476b1",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-30T21:30:00Z",
+    "completed": false,
+    "home_team": "Sao Paulo",
+    "away_team": "Corinthians",
+    "scores": null,
+    "last_update": null
+  },
+  {
+    "id": "ccfb10b53d4437b31ba09f87d9fcdb6b",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-09-30T21:30:00Z",
+    "completed": false,
+    "home_team": "Cuiabá",
+    "away_team": "Fluminense",
+    "scores": null,
+    "last_update": null
+  },
+  {
+    "id": "9f24e4d540cff6346a0824d6bb6f4783",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-10-01T00:00:00Z",
+    "completed": false,
+    "home_team": "Internacional",
+    "away_team": "Atletico Mineiro",
+    "scores": null,
+    "last_update": null
+  },
+  {
+    "id": "d9211b6eb743b877a4972e7d3ed87105",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-10-01T19:00:00Z",
+    "completed": false,
+    "home_team": "Cruzeiro",
+    "away_team": "América Mineiro",
+    "scores": null,
+    "last_update": null
+  },
+  {
+    "id": "a8fb2c55d304df5d6f2b9003d83bd1fb",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-10-01T19:00:00Z",
+    "completed": false,
+    "home_team": "Coritiba",
+    "away_team": "Atletico Paranaense",
+    "scores": null,
+    "last_update": null
+  },
+  {
+    "id": "70013335787ff3cf50a0501721f420cb",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-10-01T19:00:00Z",
+    "completed": false,
+    "home_team": "Santos",
+    "away_team": "Vasco da Gama",
+    "scores": null,
+    "last_update": null
+  },
+  {
+    "id": "7ff6e7da258dc4d4d259f35ccd400561",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-10-01T21:30:00Z",
+    "completed": false,
+    "home_team": "Bragantino-SP",
+    "away_team": "Palmeiras",
+    "scores": null,
+    "last_update": null
+  },
+  {
+    "id": "a493b75dc2a892803bace707df2ef7ff",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2023-10-02T23:00:00Z",
+    "completed": false,
+    "home_team": "Botafogo",
+    "away_team": "Goiás",
+    "scores": null,
+    "last_update": null
+  }
+]

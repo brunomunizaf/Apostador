@@ -1,5 +1,4 @@
 import Domain
-import Foundation
 import Presentation
 import UI
 
@@ -17,7 +16,7 @@ public final class SportsListComposer {
       controller.navigationController?.pushViewController(
         OddsListComposer.composeControllerWith(
           sport: sport,
-          getOdds: UseCaseFactory.makeRemoteGetOdds(
+          getOdds: UseCaseFactory.makeGetOdds(
             sportKey: sport.key,
             apiKey: Environment.variable(.apiKey)
           )

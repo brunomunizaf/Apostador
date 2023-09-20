@@ -7,10 +7,13 @@ public final class OddsListViewController: UIViewController, Storyboarded {
   @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
 
   public var dataSet = [Odd]()
+  public var push: ((Odd) -> Void)?
   public var fetch: ((@escaping ([Odd]) -> Void) -> Void)?
 
   public override func viewDidLoad() {
     super.viewDidLoad()
+    title = "Partidas"
+
     oddsTableView.delegate = self
     oddsTableView.dataSource = self
     fetch? { [weak self] odds in
@@ -64,9 +67,12 @@ extension OddsListViewController: UITableViewDataSource {
       withIdentifier: "OddsListCell",
       for: indexPath
     )
-    let string = "\(dataSet[indexPath.row].homeTeam) x \(dataSet[indexPath.row].awayTeam)"
-    cell.textLabel?.text = string
-    cell.textLabel?.numberOfLines = 0
+    var content = cell.defaultContentConfiguration()
+    content.text = "\(dataSet[indexPath.row].homeTeam) x \(dataSet[indexPath.row].awayTeam)"
+    content.secondaryText = dataSet[indexPath.row].sportTitle
+    content.textProperties.numberOfLines = 0
+    cell.contentConfiguration = content
+    cell.selectionStyle = .none
     return cell
   }
 }
@@ -76,6 +82,6 @@ extension OddsListViewController: UITableViewDelegate {
     _ tableView: UITableView,
     didSelectRowAt indexPath: IndexPath
   ) {
-    // TODO: ...
+    push?(dataSet[indexPath.row])
   }
 }

@@ -20,20 +20,28 @@ final class UseCaseFactory {
     )
   }
 
-  static func makeRemoteGetSports(apiKey: String) -> GetSports {
+  static func makeGetSports(apiKey: String) -> GetSports {
+    #if DEBUG
+    MockGetSports()
+    #else
     RemoteGetSports(
       url: makeURL(path: "/sports?apiKey=\(apiKey)"),
       httpClient: httpClient
     )
+    #endif
   }
 
-  static func makeRemoteGetOdds(
+  static func makeGetOdds(
     sportKey: String,
     apiKey: String
   ) -> GetOdds {
+    #if DEBUG
+    MockGetOdds()
+    #else
     RemoteGetOdds(
       url: makeURL(path: "/sports/\(sportKey)/odds/?apiKey=\(apiKey)&regions=us"),
       httpClient: httpClient
     )
+    #endif
   }
 }

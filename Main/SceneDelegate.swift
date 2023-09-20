@@ -11,7 +11,7 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     guard let windowScene = (scene as? UIWindowScene) else { return }
     window = UIWindow(windowScene: windowScene)
     let controller = SportsListComposer.composeControllerWith(
-      getSports: UseCaseFactory.makeRemoteGetSports(
+      getSports: UseCaseFactory.makeGetSports(
         apiKey: Environment.variable(.apiKey)
       )
     )
