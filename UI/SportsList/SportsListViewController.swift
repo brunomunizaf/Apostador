@@ -7,13 +7,20 @@ public final class SportsListViewController: UIViewController, Storyboarded {
   @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
 
   public var push: ((Sport) -> Void)?
-  public var dataSet = [SportsListViewModel]()
+  public var dataSet = [SportsListViewModel]() {
+    didSet {
+      if !dataSet.isEmpty {
+        contentUnavailableConfiguration = .none
+      }
+    }
+  }
   public var fetch: ((@escaping ([SportsListViewModel]) -> Void) -> Void)?
 
   public override func viewDidLoad() {
     super.viewDidLoad()
     title = "Esportes"
 
+    setupTableEmptyState()
     sportsTableView.delegate = self
     sportsTableView.dataSource = self
     fetch? { [weak self] sports in
@@ -21,6 +28,15 @@ public final class SportsListViewController: UIViewController, Storyboarded {
       dataSet = sports
       sportsTableView.reloadData()
     }
+  }
+
+  private func setupTableEmptyState() {
+    var configuration = UIContentUnavailableConfiguration.empty()
+    configuration.image = UIImage(systemName: "questionmark.circle")
+    configuration.text = "Cadê os esportes?"
+    configuration.textProperties.color = .white
+    configuration.secondaryText = "Bem, normalmente os esportes estariam aqui..."
+    contentUnavailableConfiguration = configuration
   }
 }
 

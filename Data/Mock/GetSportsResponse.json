@@ -1,7 +1,7 @@
 [
   {
     "key": "americanfootball_cfl",
-    "group": "American Football",
+    "group": "Futebol Americano",
     "title": "CFL",
     "description": "Canadian Football League",
     "active": true,
@@ -9,7 +9,7 @@
   },
   {
     "key": "americanfootball_ncaaf",
-    "group": "American Football",
+    "group": "Futebol Americano",
     "title": "NCAAF",
     "description": "US College Football",
     "active": true,
@@ -17,7 +17,7 @@
   },
   {
     "key": "americanfootball_nfl",
-    "group": "American Football",
+    "group": "Futebol Americano",
     "title": "NFL",
     "description": "US Football",
     "active": true,
@@ -25,7 +25,7 @@
   },
   {
     "key": "americanfootball_nfl_super_bowl_winner",
-    "group": "American Football",
+    "group": "Futebol Americano",
     "title": "NFL Super Bowl Winner",
     "description": "Super Bowl Winner 2023/2024",
     "active": true,
@@ -33,7 +33,7 @@
   },
   {
     "key": "aussierules_afl",
-    "group": "Aussie Rules",
+    "group": "Futebol Australiano",
     "title": "AFL",
     "description": "Aussie Football",
     "active": true,
@@ -43,7 +43,7 @@
     "key": "baseball_mlb",
     "group": "Baseball",
     "title": "MLB",
-    "description": "Major League Baseball",
+    "description": "Liga de baseball",
     "active": true,
     "has_outrights": false
   },
@@ -57,32 +57,24 @@
   },
   {
     "key": "basketball_nba",
-    "group": "Basketball",
+    "group": "Basquete",
     "title": "NBA",
-    "description": "US Basketball",
+    "description": "🇺🇸🙋🏻‍♂️ Estados Unidos",
     "active": true,
     "has_outrights": false
   },
   {
-    "key": "basketball_nba_championship_winner",
-    "group": "Basketball",
-    "title": "NBA Championship Winner",
-    "description": "Championship Winner 2022/2023",
-    "active": true,
-    "has_outrights": true
-  },
-  {
     "key": "basketball_wnba",
-    "group": "Basketball",
+    "group": "Basquete",
     "title": "WNBA",
-    "description": "US Basketball",
+    "description": "🇺🇸🙋🏻‍♀️ Estados Unidos ",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "boxing_boxing",
-    "group": "Boxing",
-    "title": "Boxing",
+    "group": "Luta",
+    "title": "Boxe",
     "description": "Boxing Bouts",
     "active": true,
     "has_outrights": false
@@ -105,7 +97,7 @@
   },
   {
     "key": "golf_masters_tournament_winner",
-    "group": "Golf",
+    "group": "Golfe",
     "title": "Masters Tournament Winner",
     "description": "2024 Winner",
     "active": true,
@@ -113,7 +105,7 @@
   },
   {
     "key": "golf_pga_championship_winner",
-    "group": "Golf",
+    "group": "Golfe",
     "title": "PGA Championship Winner",
     "description": "2024 Winner",
     "active": true,
@@ -121,7 +113,7 @@
   },
   {
     "key": "golf_us_open_winner",
-    "group": "Golf",
+    "group": "Golfe",
     "title": "US Open Winner",
     "description": "2023 Winner",
     "active": true,
@@ -129,31 +121,31 @@
   },
   {
     "key": "icehockey_nhl_championship_winner",
-    "group": "Ice Hockey",
+    "group": "Hóquei no gelo",
     "title": "NHL Championship Winner",
-    "description": "Stanley Cup Winner 2022/2023",
+    "description": "🇺🇸 Estados Unidos",
     "active": true,
     "has_outrights": true
   },
   {
     "key": "icehockey_sweden_allsvenskan",
-    "group": "Ice Hockey",
+    "group": "Hóquei no gelo",
     "title": "HockeyAllsvenskan",
-    "description": "Swedish Hockey Allsvenskan",
+    "description": "🇸🇪 Suécia",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "icehockey_sweden_hockey_league",
-    "group": "Ice Hockey",
+    "group": "Hóquei no gelo",
     "title": "SHL",
-    "description": "Swedish Hockey League",
+    "description": "🇸🇪 Suécia",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "mma_mixed_martial_arts",
-    "group": "Mixed Martial Arts",
+    "group": "Luta",
     "title": "MMA",
     "description": "Mixed Martial Arts",
     "active": true,
@@ -161,87 +153,87 @@
   },
   {
     "key": "rugbyleague_nrl",
-    "group": "Rugby League",
+    "group": "Rugby",
     "title": "NRL",
-    "description": "Aussie Rugby League",
+    "description": "🇦🇺 Austrália",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "rugbyunion_world_cup",
-    "group": "Rugby Union",
+    "group": "Rugby",
     "title": "World Cup",
-    "description": "World Cup 2023",
+    "description": "🌎 Mundial",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_austria_bundesliga",
-    "group": "Soccer",
-    "title": "Austrian Football Bundesliga",
-    "description": "Austrian Soccer",
+    "group": "Futebol",
+    "title": "Bundesliga",
+    "description": "🇦🇹 Áustria",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_belgium_first_div",
-    "group": "Soccer",
+    "group": "Futebol",
     "title": "Belgium First Division",
-    "description": "Belgian First Division A",
+    "description": "🇧🇪 Bélgica",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_brazil_campeonato",
-    "group": "Soccer",
-    "title": "Brazil Série A",
-    "description": "Brasileirão Série A",
+    "group": "Futebol",
+    "title": "Série A",
+    "description": "🇧🇷 Brasil",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_brazil_serie_b",
-    "group": "Soccer",
-    "title": "Brazil Série B",
-    "description": "Campeonato Brasileiro Série B",
+    "group": "Futebol",
+    "title": "Série B",
+    "description": "🇧🇷 Brasil",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_chile_campeonato",
-    "group": "Soccer",
-    "title": "Primera División - Chile",
-    "description": "Campeonato Chileno",
+    "group": "Futebol",
+    "title": "Primera División",
+    "description": "🇨🇱 Chile",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_china_superleague",
-    "group": "Soccer",
-    "title": "Super League - China",
-    "description": "Chinese Soccer",
+    "group": "Futebol",
+    "title": "Super League",
+    "description": "🇨🇳 China",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_conmebol_copa_libertadores",
-    "group": "Soccer",
+    "group": "Futebol",
     "title": "Copa Libertadores",
-    "description": "CONMEBOL Copa Libertadores",
+    "description": "🌎 América do Sul",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_denmark_superliga",
-    "group": "Soccer",
+    "group": "Futebol",
     "title": "Denmark Superliga",
-    "description": "Danish Soccer",
+    "description": "🇩🇰 Dinamarca",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_efl_champ",
-    "group": "Soccer",
+    "group": "Futebol",
     "title": "Championship",
     "description": "EFL Championship",
     "active": true,
@@ -249,257 +241,201 @@
   },
   {
     "key": "soccer_england_efl_cup",
-    "group": "Soccer",
+    "group": "Futebol",
     "title": "EFL Cup",
-    "description": "League Cup",
-    "active": true,
-    "has_outrights": false
-  },
-  {
-    "key": "soccer_england_league1",
-    "group": "Soccer",
-    "title": "League 1",
-    "description": "EFL League 1",
-    "active": true,
-    "has_outrights": false
-  },
-  {
-    "key": "soccer_england_league2",
-    "group": "Soccer",
-    "title": "League 2",
-    "description": "EFL League 2 ",
+    "description": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_epl",
-    "group": "Soccer",
-    "title": "EPL",
-    "description": "English Premier League",
+    "group": "Futebol",
+    "title": "Premier League",
+    "description": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_finland_veikkausliiga",
-    "group": "Soccer",
-    "title": "Veikkausliiga - Finland",
-    "description": "Finnish  Soccer",
+    "group": "Futebol",
+    "title": "Veikkausliiga",
+    "description": "🇫🇮 Finlândia",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_france_ligue_one",
-    "group": "Soccer",
-    "title": "Ligue 1 - France",
-    "description": "French Soccer",
+    "group": "Futebol",
+    "title": "Ligue 1",
+    "description": "🇫🇷 França",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_france_ligue_two",
-    "group": "Soccer",
-    "title": "Ligue 2 - France",
-    "description": "French Soccer",
+    "group": "Futebol",
+    "title": "Ligue 2",
+    "description": "🇫🇷 França",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_germany_bundesliga",
-    "group": "Soccer",
-    "title": "Bundesliga - Germany",
-    "description": "German Soccer",
-    "active": true,
-    "has_outrights": false
-  },
-  {
-    "key": "soccer_germany_bundesliga2",
-    "group": "Soccer",
-    "title": "Bundesliga 2 - Germany",
-    "description": "German Soccer",
+    "group": "Futebol",
+    "title": "Bundesliga",
+    "description": "🇩🇪 Alemanha",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_germany_liga3",
-    "group": "Soccer",
-    "title": "3. Liga - Germany",
-    "description": "German Soccer",
+    "group": "Futebol",
+    "title": "3. Liga",
+    "description": "🇩🇪 Alemanha",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_greece_super_league",
-    "group": "Soccer",
-    "title": "Super League - Greece",
-    "description": "Greek Soccer",
+    "group": "Futebol",
+    "title": "Super League",
+    "description": "🇬🇷 Grécia",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_italy_serie_a",
-    "group": "Soccer",
-    "title": "Serie A - Italy",
-    "description": "Italian Soccer",
+    "group": "Futebol",
+    "title": "Serie A",
+    "description": "🇮🇹 Itália",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_italy_serie_b",
-    "group": "Soccer",
-    "title": "Serie B - Italy",
-    "description": "Italian Soccer",
+    "group": "Futebol",
+    "title": "Serie B",
+    "description": "🇮🇹 Itália",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_japan_j_league",
-    "group": "Soccer",
+    "group": "Futebol",
     "title": "J League",
-    "description": "Japan Soccer League",
+    "description": "🇯🇵 Japão",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_korea_kleague1",
-    "group": "Soccer",
+    "group": "Futebol",
     "title": "K League 1",
-    "description": "Korean Soccer",
+    "description": "🇰🇷 Coréia do Sul",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_league_of_ireland",
-    "group": "Soccer",
-    "title": "League of Ireland",
-    "description": "Airtricity League Premier Division",
+    "group": "Futebol",
+    "title": "Airtricity League Premier Division",
+    "description": "🇮🇪 Irlanda",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_mexico_ligamx",
-    "group": "Soccer",
+    "group": "Futebol",
     "title": "Liga MX",
-    "description": "Mexican Soccer",
+    "description": "🇲🇽 México",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_netherlands_eredivisie",
-    "group": "Soccer",
+    "group": "Futebol",
     "title": "Dutch Eredivisie",
-    "description": "Dutch Soccer",
+    "description": "🇳🇱 Holanda",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_norway_eliteserien",
-    "group": "Soccer",
-    "title": "Eliteserien - Norway",
-    "description": "Norwegian Soccer",
+    "group": "Futebol",
+    "title": "Eliteserien",
+    "description": "🇳🇴 Noruega",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_poland_ekstraklasa",
-    "group": "Soccer",
-    "title": "Ekstraklasa - Poland",
-    "description": "Polish Soccer",
+    "group": "Futebol",
+    "title": "Ekstraklasa",
+    "description": "🇵🇱 Polônia",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_portugal_primeira_liga",
-    "group": "Soccer",
-    "title": "Primeira Liga - Portugal",
-    "description": "Portugese Soccer",
+    "group": "Futebol",
+    "title": "Primeira Liga",
+    "description": "🇵🇹 Portugal",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_spain_la_liga",
-    "group": "Soccer",
-    "title": "La Liga - Spain",
-    "description": "Spanish Soccer",
-    "active": true,
-    "has_outrights": false
-  },
-  {
-    "key": "soccer_spain_segunda_division",
-    "group": "Soccer",
-    "title": "La Liga 2 - Spain",
-    "description": "Spanish Soccer",
+    "group": "Futebol",
+    "title": "La Liga",
+    "description": "🇪🇸 Espanha",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_spl",
-    "group": "Soccer",
-    "title": "Premiership - Scotland",
-    "description": "Scottish Premiership",
+    "group": "Futebol",
+    "title": "Premiership",
+    "description": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escócia",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_sweden_allsvenskan",
-    "group": "Soccer",
-    "title": "Allsvenskan - Sweden",
-    "description": "Swedish Soccer",
-    "active": true,
-    "has_outrights": false
-  },
-  {
-    "key": "soccer_sweden_superettan",
-    "group": "Soccer",
-    "title": "Superettan - Sweden",
-    "description": "Swedish Soccer",
+    "group": "Futebol",
+    "title": "Allsvenskan",
+    "description": "🇸🇪 Suécia",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_switzerland_superleague",
-    "group": "Soccer",
+    "group": "Futebol",
     "title": "Swiss Superleague",
-    "description": "Swiss Soccer",
+    "description": "🇨🇭 Suíça",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_turkey_super_league",
-    "group": "Soccer",
+    "group": "Futebol",
     "title": "Turkey Super League",
-    "description": "Turkish Soccer",
+    "description": "🇹🇷 Turquia",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_uefa_champs_league",
-    "group": "Soccer",
+    "group": "Futebol",
     "title": "UEFA Champions League",
-    "description": "European Champions League",
-    "active": true,
-    "has_outrights": false
-  },
-  {
-    "key": "soccer_uefa_europa_conference_league",
-    "group": "Soccer",
-    "title": "UEFA Europa Conference League",
-    "description": "UEFA Europa Conference League",
-    "active": true,
-    "has_outrights": false
-  },
-  {
-    "key": "soccer_uefa_europa_league",
-    "group": "Soccer",
-    "title": "UEFA Europa League",
-    "description": "European Europa League",
+    "description": "🇪🇺 Europa",
     "active": true,
     "has_outrights": false
   },
   {
     "key": "soccer_usa_mls",
-    "group": "Soccer",
+    "group": "Futebol",
     "title": "MLS",
-    "description": "Major League Soccer",
+    "description": "🇺🇸 Estados Unidos",
     "active": true,
     "has_outrights": false
   }
